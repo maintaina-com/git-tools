@@ -43,7 +43,7 @@ class Dev extends Base
         $arguments = $config->getArguments();
 
         // Exit early if we aren't actually calling any dev related commands.
-        if (array_shift($arguments) != 'dev' || !count($arguments)) {
+        if (empty($arguments) || array_shift($arguments) != 'dev') {
             // Exit early if we didn't request any actual actions.
             return false;
         }
@@ -55,7 +55,12 @@ class Dev extends Base
         case 'new':
             $this->_doNewApp();
             return true;
+        break;
+
         }
+        $this->_dependencies->getOutput()->help($this->getHelp());
+        return true;
+
     }
 
     /**
