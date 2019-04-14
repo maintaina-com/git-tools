@@ -24,7 +24,11 @@ Pear packaging infrastructure is available for components only.
 
 The git-tools application recognizes functionality by modules. Modules are
 classes which provide both human readable and code usable meta information
-on parameters needed to execute actions.
+on parameters needed to execute actions. Modules may process multiple levels
+of arguments or delegate processing to another module hierarchy as done in 
+the components module. A module will ultimately call one or multiple Actions.
+
+> The help module calls into other modules to provide help. Add some guidance.
 
 ### Components-Level Modules
 
@@ -33,14 +37,37 @@ The Base module is explicitly excluded.
 Each found module's handle() method is supplied the Components_Configs object.
 This object contains both the list of arguments and the list of parameters
 of that level. Modules may process more than one level of arguments themselves.
+Modules will ultimately call a runner to perform actual processing.
+
+> May Modules call other modules?
 
 ## Git-Tools Actions
 
 Actions are implementations of an actual capability. They take over parsed
 configuration and parameter from the base environment and combine them with
-any dependencies to perform a distinct action.
+any dependencies to perform a distinct action. An action is derived from a base
+Action class - there is no separated interface definition.
+The base defines a constructor of fixed arguments and a parameter-less abstract 
+method run();
 
-### Components-Level Actions
+> May Actions call other Actions?
+> May Actions call back into the calling module or other modules?
+
+### Runners: Components-Level Actions
+
+In Contrast, components originally had no notion of actions.
+All original components modules called into Runner classes.
+Runners have no formal common interface or base class.
+By convention, they have a run() method and live in a common dir
+Components_Runner. All found runners have a constructor with 
+Components_Config as the first argument. The number and type of
+the following argument definitions is arbitrary.
+Runners are initialized by a global Components_Dependencies factory.
+Each runner has its own method in this factory, which makes it not a 
+very modular, expandable approach.
+
+> May Runners call other Runners?
+> May Runners call back into the calling module or other modules?
 
 ## Git-Tools Config
 
