@@ -47,7 +47,13 @@ class Callbacks
      */
     public static function unlinkHordeRole(Event $event)
     {
-        unlink(dirname(__FILE__) . '/../vendor/pear/pear/PEAR/Installer/Role/Horde.php');
-        unlink(dirname(__FILE__) . '/../vendor/pear/pear/PEAR/Installer/Role/Horde.xml');
+        $hordePhp = dirname(__FILE__) . '/../vendor/pear/pear/PEAR/Installer/Role/Horde.php';
+        $hordeXml = dirname(__FILE__) . '/../vendor/pear/pear/PEAR/Installer/Role/Horde.xml';
+        if (file_exists($hordePhp)) {
+            unlink($hordePhp);
+        }
+        if (file_exists($hordeXml)) {
+            unlink($hordePhp);
+        }
     }
 }
