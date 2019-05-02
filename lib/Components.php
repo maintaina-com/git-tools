@@ -78,6 +78,19 @@ class Components extends \Components
         }
     }
 
+    /**
+     *  Expose Modules of the "components" program
+     *  This is mostly useful to forward options and help introspection
+     *  from the "components" architecture to the similar git-tools frontend
+     *  @return array list of modules
+     */
+    public static function exposeComponentsModules()
+    {
+        $dependencies = new Components_Dependencies_Injector();
+        $modular = self::_prepareModular($dependencies, array());
+        return $modular;
+    }
+
     protected static function _prepareConfig(Horde_Argv_Parser $parser)
     {
         $config = new \Components_Configs();

@@ -50,7 +50,24 @@ class Components extends Base
 
     public function getOptionGroupOptions($action = null)
     {
-            return array();
+        $modular = \Horde\GitTools\Components::exposeComponentsModules();
+        $options = array();
+        if ($action) {
+            $options =  $modular->getProvider()->
+            getModule($action)->
+            getOptionGroupOptions();
+            print_r($options);
+            return $options;
+        }
+        foreach ($modular->getModules() as $module) {
+            foreach (
+                $modular->getProvider()->
+                getModule($module)->
+                getOptionGroupOptions() as $option) {
+                $options[] = $option;
+            }
+        }
+        return $options;
     }
 
     public function hasOptionGroup()
@@ -123,7 +140,13 @@ class Components extends Base
      */
     public function getActions()
     {
-        return array('update COMPONENT'  => 'Updates COMPONENT\'s package.xml file. COMPONENT is name of repository relative to git_base.');
+        $modular = \Horde\GitTools\Components::exposeComponentsModules();
+        $modules = array();
+        foreach ($modular->getModules() as $module) {
+            $modules[$module] = $modular->getProvider()->getModule($module)
+            ->getOptionGroupDescription();
+        }
+        return $modules;
     }
 
     /**
