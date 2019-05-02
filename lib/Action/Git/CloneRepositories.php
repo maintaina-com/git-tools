@@ -86,6 +86,15 @@ class CloneRepositories extends Base
             $this->_dependencies->getOutput()->plain($results[0]);
         }
 
+        // Add upstream remote?
+        if (!empty($this->_params['git_upstream_org'])) {
+            $org = $this->_params['git_upstream_org'];
+            $upstreamUrl = self::HTTPS_GITURL . "/$org/$package.git";
+            $results = $this->_callGit(
+            "remote add upstream $upstreamUrl", $target
+            );
+        }
+
         // Add the 'get' alias?
         if (!empty($this->_params['add_get_alias'])) {
             $target = $target . '/.git/config';
