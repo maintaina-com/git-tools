@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "067556e37cef67233887cde7926d78a1",
+    "content-hash": "927f63e8d389ed490ee13a8b8bb0aa49",
     "packages": [
         {
             "name": "horde/alarm",
@@ -12,29 +12,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Alarm.git",
-                "reference": "2532f02bb187f9497c9d41e786e57bdf10a36163"
+                "reference": "d4947f5098827fcdfd182983d32bb9098c6afde6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Alarm/zipball/2532f02bb187f9497c9d41e786e57bdf10a36163",
-                "reference": "2532f02bb187f9497c9d41e786e57bdf10a36163",
+                "url": "https://api.github.com/repos/maintaina-com/Alarm/zipball/d4947f5098827fcdfd182983d32bb9098c6afde6",
+                "reference": "d4947f5098827fcdfd182983d32bb9098c6afde6",
                 "shasum": ""
             },
             "require": {
-                "horde/date": "^2",
-                "horde/exception": "^2",
-                "horde/translation": "^2.2",
+                "horde/date": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Db": "^2.2",
-                "horde/Log": "^2",
-                "horde/Mail": "^2",
-                "horde/Mime": "^2",
-                "horde/Notification": "^2",
-                "horde/Perms": "^2",
-                "horde/Prefs": "^2",
-                "horde/Test": "^2.1"
+                "horde/db": "^2.2",
+                "horde/log": "^2",
+                "horde/mail": "^2",
+                "horde/mime": "^2",
+                "horde/notification": "^2",
+                "horde/perms": "^2",
+                "horde/prefs": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -53,11 +54,11 @@
                 }
             ],
             "description": "Alarm library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Alarm",
             "support": {
                 "source": "https://github.com/maintaina-com/Alarm/tree/master"
             },
-            "time": "2019-02-13T07:20:02+00:00"
+            "time": "2019-05-02T17:43:18+00:00"
         },
         {
             "name": "horde/argv",
@@ -65,23 +66,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Argv.git",
-                "reference": "06e3545f530cb326c12bb6afd4025691e15307ce"
+                "reference": "5d5b5cee1fe4e4bd0b007ee3d29ab9d5743ea8fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/06e3545f530cb326c12bb6afd4025691e15307ce",
-                "reference": "06e3545f530cb326c12bb6afd4025691e15307ce",
+                "url": "https://api.github.com/repos/maintaina-com/Argv/zipball/5d5b5cee1fe4e4bd0b007ee3d29ab9d5743ea8fc",
+                "reference": "5d5b5cee1fe4e4bd0b007ee3d29ab9d5743ea8fc",
                 "shasum": ""
             },
             "require": {
-                "horde/cli": "^2.2",
-                "horde/exception": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/cli": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -110,11 +112,11 @@
                 }
             ],
             "description": "Command-line argument parsing library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Argv",
             "support": {
                 "source": "https://github.com/maintaina-com/Argv/tree/master"
             },
-            "time": "2019-02-06T15:42:25+00:00"
+            "time": "2019-05-02T17:44:09+00:00"
         },
         {
             "name": "horde/auth",
@@ -122,19 +124,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Auth.git",
-                "reference": "455d84695fd4a903af927aba3677a33693d95212"
+                "reference": "71fdb672252e3e1f9bf307f8e355e84e98430b12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Auth/zipball/455d84695fd4a903af927aba3677a33693d95212",
-                "reference": "455d84695fd4a903af927aba3677a33693d95212",
+                "url": "https://api.github.com/repos/maintaina-com/Auth/zipball/71fdb672252e3e1f9bf307f8e355e84e98430b12",
+                "reference": "71fdb672252e3e1f9bf307f8e355e84e98430b12",
                 "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
-                "horde/exception": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -142,15 +145,15 @@
                 "ext-ftp": "*",
                 "ext-pam": "*",
                 "ext-sasl": "*",
-                "horde/Db": "^2",
-                "horde/History": "^2",
-                "horde/Http": "^2",
-                "horde/Imap_Client": "^2",
-                "horde/Imsp": "^2",
-                "horde/Kolab_Session": "^2",
-                "horde/Ldap": "^2",
-                "horde/Lock": "^2",
-                "horde/Test": "^2.1"
+                "horde/db": "^2",
+                "horde/history": "^2",
+                "horde/http": "^2",
+                "horde/imap_client": "^2",
+                "horde/imsp": "^2",
+                "horde/kolab_session": "^2",
+                "horde/ldap": "^2",
+                "horde/lock": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -179,54 +182,60 @@
                 }
             ],
             "description": "Authentication and user management library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Auth",
             "support": {
                 "source": "https://github.com/maintaina-com/Auth/tree/master"
             },
-            "time": "2019-02-13T07:20:15+00:00"
+            "time": "2019-05-02T17:44:23+00:00"
         },
         {
             "name": "horde/autoloader",
-            "version": "2.1.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Autoloader.git",
-                "reference": "5366e270eed21a2ece130a1c9ada780acf7d6bc7"
+                "reference": "b0b1fb2b28b37742ca5ee9ab93ddaba1302c31a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/5366e270eed21a2ece130a1c9ada780acf7d6bc7",
-                "reference": "5366e270eed21a2ece130a1c9ada780acf7d6bc7",
+                "url": "https://api.github.com/repos/maintaina-com/Autoloader/zipball/b0b1fb2b28b37742ca5ee9ab93ddaba1302c31a2",
+                "reference": "b0b1fb2b28b37742ca5ee9ab93ddaba1302c31a2",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0,<=8.0.0alpha1"
+                "horde/horde-installer-plugin": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Autoloader": "lib/"
+                }
+            },
             "license": [
                 "LGPL-2.1"
             ],
             "authors": [
                 {
-                    "name": "Chuck Hagenbuch",
-                    "email": "chuck@horde.org",
-                    "role": "lead"
-                },
-                {
                     "name": "Jan Schneider",
                     "email": "jan@horde.org",
                     "role": "lead"
+                },
+                {
+                    "name": "Chuck Hagenbuch",
+                    "email": "chuck@horde.org",
+                    "role": "lead"
                 }
             ],
-            "description": "Horde Autoloader",
-            "homepage": "http://pear.horde.org",
+            "description": "Autoloader library",
+            "homepage": "https://www.horde.org/libraries/Horde_Autoloader",
             "support": {
-                "source": "https://github.com/maintaina-com/Autoloader/tree/v2.1.2"
+                "source": "https://github.com/maintaina-com/Autoloader/tree/master"
             },
-            "time": "2016-02-01T00:00:00+00:00"
+            "time": "2019-05-02T17:44:43+00:00"
         },
         {
             "name": "horde/browser",
@@ -234,18 +243,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Browser.git",
-                "reference": "c3b37afb4cc55c383d7481398cd86a8f90d6f572"
+                "reference": "7baabdc8f2b9115097cbe3281dbc583c74503d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/c3b37afb4cc55c383d7481398cd86a8f90d6f572",
-                "reference": "c3b37afb4cc55c383d7481398cd86a8f90d6f572",
+                "url": "https://api.github.com/repos/maintaina-com/Browser/zipball/7baabdc8f2b9115097cbe3281dbc583c74503d7e",
+                "reference": "7baabdc8f2b9115097cbe3281dbc583c74503d7e",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "*",
-                "horde/translation": "*",
-                "horde/util": "*",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "type": "horde-library",
@@ -270,11 +280,11 @@
                 }
             ],
             "description": "Browser detection library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Browser",
             "support": {
                 "source": "https://github.com/maintaina-com/Browser/tree/master"
             },
-            "time": "2019-02-06T16:28:24+00:00"
+            "time": "2019-05-02T17:44:52+00:00"
         },
         {
             "name": "horde/cache",
@@ -282,30 +292,31 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Cache.git",
-                "reference": "c5184acb4e8d11f442241698a90a8dcddeacc5c8"
+                "reference": "ba307e943df7af0564c23ad575738f1bdb1bcaf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/c5184acb4e8d11f442241698a90a8dcddeacc5c8",
-                "reference": "c5184acb4e8d11f442241698a90a8dcddeacc5c8",
+                "url": "https://api.github.com/repos/maintaina-com/Cache/zipball/ba307e943df7af0564c23ad575738f1bdb1bcaf9",
+                "reference": "ba307e943df7af0564c23ad575738f1bdb1bcaf9",
                 "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
-                "horde/compress_fast": "^1",
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/compress_fast": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-APC": "^3.1.1",
                 "ext-eaccelerator": "0.9.5",
                 "ext-xcache": "*",
-                "horde/Db": "^2.1",
-                "horde/HashTable": "^1",
-                "horde/Log": "^2",
-                "horde/Memcache": "^2",
-                "horde/Mongo": "^1"
+                "horde/db": "^2.1",
+                "horde/hashtable": "^1",
+                "horde/log": "^2",
+                "horde/memcache": "^2",
+                "horde/mongo": "^1"
             },
             "type": "horde-library",
             "autoload": {
@@ -329,11 +340,11 @@
                 }
             ],
             "description": "Caching library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Cache",
             "support": {
                 "source": "https://github.com/maintaina-com/Cache/tree/master"
             },
-            "time": "2019-02-07T17:33:25+00:00"
+            "time": "2019-05-02T17:45:00+00:00"
         },
         {
             "name": "horde/cli",
@@ -341,17 +352,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Cli.git",
-                "reference": "85bd14fd4d6553c0fd92f6ad28cc6242f28fdff6"
+                "reference": "fcb6b74574ce900c47afbeddb22365d56112af0c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Cli/zipball/85bd14fd4d6553c0fd92f6ad28cc6242f28fdff6",
-                "reference": "85bd14fd4d6553c0fd92f6ad28cc6242f28fdff6",
+                "url": "https://api.github.com/repos/maintaina-com/Cli/zipball/fcb6b74574ce900c47afbeddb22365d56112af0c",
+                "reference": "fcb6b74574ce900c47afbeddb22365d56112af0c",
                 "shasum": ""
             },
             "require": {
-                "horde/support": "^2",
-                "horde/translation": "^2.2",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
+                "horde/translation": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "type": "horde-library",
@@ -376,11 +388,11 @@
                 }
             ],
             "description": "Command line interface library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Cli",
             "support": {
                 "source": "https://github.com/maintaina-com/Cli/tree/master"
             },
-            "time": "2019-02-06T14:48:11+00:00"
+            "time": "2019-05-02T17:45:08+00:00"
         },
         {
             "name": "horde/cli_modular",
@@ -388,26 +400,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Cli_Modular.git",
-                "reference": "97b8318e86d33a0ef65bce078d3e368fe34802eb"
+                "reference": "10f6736bb831d9970e4b665e4dfc3b41cb44b748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/97b8318e86d33a0ef65bce078d3e368fe34802eb",
-                "reference": "97b8318e86d33a0ef65bce078d3e368fe34802eb",
+                "url": "https://api.github.com/repos/maintaina-com/Cli_Modular/zipball/10f6736bb831d9970e4b665e4dfc3b41cb44b748",
+                "reference": "10f6736bb831d9970e4b665e4dfc3b41cb44b748",
                 "shasum": ""
             },
             "require": {
-                "horde/argv": "^2",
+                "horde/argv": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
-            "replace": {
-                "pear-horde/horde_cli_modular": "2.*",
-                "pear-pear.horde.org/horde_cli_modular": "2.*"
-            },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": "^2.1"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
             "autoload": {
                 "psr-0": {
                     "Horde_Cli_Modular": "lib/"
@@ -433,7 +442,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Cli_Modular/tree/master"
             },
-            "time": "2019-04-12T16:29:55+00:00"
+            "time": "2019-05-02T17:45:17+00:00"
         },
         {
             "name": "horde/components",
@@ -441,39 +450,39 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/components.git",
-                "reference": "f8cd6123fd81e12795c9bc28c024cde82588e0e4"
+                "reference": "ef89d6549e4582918c75882b3ebe1945eca933e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/components/zipball/f8cd6123fd81e12795c9bc28c024cde82588e0e4",
-                "reference": "f8cd6123fd81e12795c9bc28c024cde82588e0e4",
+                "url": "https://api.github.com/repos/maintaina-com/components/zipball/ef89d6549e4582918c75882b3ebe1945eca933e5",
+                "reference": "ef89d6549e4582918c75882b3ebe1945eca933e5",
                 "shasum": ""
             },
             "require": {
-                "horde/argv": "*",
-                "horde/autoloader": "*",
-                "horde/cli": "^2.3",
-                "horde/cli_modular": "^2.1",
-                "horde/horde-installer-plugin": "*",
-                "horde/http": "*",
-                "horde/injector": "*",
-                "horde/pear": "*",
-                "horde/release": "*",
-                "horde/role": "*",
-                "horde/text_diff": "*",
-                "horde/util": "*",
-                "horde/yaml": "*",
+                "horde/argv": "dev-master",
+                "horde/autoloader": "dev-master",
+                "horde/cli": "dev-master",
+                "horde/cli_modular": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/http": "dev-master",
+                "horde/injector": "dev-master",
+                "horde/pear": "dev-master",
+                "horde/release": "dev-master",
+                "horde/role": "dev-master",
+                "horde/text_diff": "dev-master",
+                "horde/util": "dev-master",
+                "horde/yaml": "dev-master",
                 "php": "^5.4 || ^7"
             },
             "suggest": {
                 "horde/test": "*",
+                "pear-pear.php.net/Archive_Tar": "*",
+                "pear-pear.php.net/PHP_CodeSniffer": "*",
                 "pear-pear.phpmd.org/PHP_PMD": "*",
                 "pear-pear.phpunit.de/PHPUnit": "*",
-                "pear/archive_tar": "*",
-                "phploc/phploc": "*",
-                "sebastian/phpcpd": "*",
-                "sebastian/phpdcd": "*",
-                "squizlabs/php_codesniffer": "*"
+                "pear-pear.phpunit.de/phpcpd": "*",
+                "pear-pear.phpunit.de/phpdcd": "*",
+                "pear-pear.phpunit.de/phploc": "*"
             },
             "type": "horde-application",
             "autoload": {
@@ -501,7 +510,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/components/tree/master"
             },
-            "time": "2019-02-14T16:57:11+00:00"
+            "time": "2019-05-02T17:41:08+00:00"
         },
         {
             "name": "horde/compress",
@@ -509,28 +518,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Compress.git",
-                "reference": "a4afab795cc42776de48c105a416d436cb6d0fb2"
+                "reference": "9bea8bf0cf4673b5ae0d368a9182a482bdbe2017"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/a4afab795cc42776de48c105a416d436cb6d0fb2",
-                "reference": "a4afab795cc42776de48c105a416d436cb6d0fb2",
+                "url": "https://api.github.com/repos/maintaina-com/Compress/zipball/9bea8bf0cf4673b5ae0d368a9182a482bdbe2017",
+                "reference": "9bea8bf0cf4673b5ae0d368a9182a482bdbe2017",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/mime": "^2.5",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-zlib": "*",
-                "horde/Icalendar": "^2",
-                "horde/Mail": "^2.5",
-                "horde/Mapi": "^1",
-                "horde/Stream_Filter": "^2",
-                "horde/Test": "^2.1"
+                "horde/icalendar": "^2",
+                "horde/mail": "^2.5",
+                "horde/mapi": "^1",
+                "horde/stream_filter": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -564,11 +574,11 @@
                 }
             ],
             "description": "Compression library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Compress",
             "support": {
                 "source": "https://github.com/maintaina-com/Compress/tree/master"
             },
-            "time": "2019-02-07T06:25:33+00:00"
+            "time": "2019-05-02T17:45:27+00:00"
         },
         {
             "name": "horde/compress_fast",
@@ -576,22 +586,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Compress_Fast.git",
-                "reference": "60f1028e4c3ac1eb2f13f6a1f57262f7bf4675a1"
+                "reference": "ad82c3b3c2cfca7eafa25db4c505805cf342a5cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Compress_Fast/zipball/60f1028e4c3ac1eb2f13f6a1f57262f7bf4675a1",
-                "reference": "60f1028e4c3ac1eb2f13f6a1f57262f7bf4675a1",
+                "url": "https://api.github.com/repos/maintaina-com/Compress_Fast/zipball/ad82c3b3c2cfca7eafa25db4c505805cf342a5cd",
+                "reference": "ad82c3b3c2cfca7eafa25db4c505805cf342a5cd",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-horde_lz4": "*",
-                "ext-lzf": "*",
-                "horde/Test": "^2.1"
+                "ext-lzf": "^1.5.2",
+                "ext-zlib": "*",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -614,29 +626,35 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Compress_Fast/tree/master"
             },
-            "time": "2019-02-07T18:32:46+00:00"
+            "time": "2019-05-02T17:45:36+00:00"
         },
         {
             "name": "horde/constraint",
-            "version": "2.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Constraint.git",
-                "reference": "e0948fb365dc217b824bcf7f28c9cc630af0efa4"
+                "reference": "323a205e309c7c333c55e6715139fa153bc031b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Constraint/zipball/e0948fb365dc217b824bcf7f28c9cc630af0efa4",
-                "reference": "e0948fb365dc217b824bcf7f28c9cc630af0efa4",
+                "url": "https://api.github.com/repos/maintaina-com/Constraint/zipball/323a205e309c7c333c55e6715139fa153bc031b5",
+                "reference": "323a205e309c7c333c55e6715139fa153bc031b5",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0,<=8.0.0alpha1"
+                "horde/horde-installer-plugin": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Constraint": "lib/"
+                }
+            },
             "license": [
                 "BSD-2-Clause"
             ],
@@ -647,12 +665,12 @@
                     "role": "lead"
                 }
             ],
-            "description": "Horde Constraint library",
-            "homepage": "http://pear.horde.org",
+            "description": "Constraint library",
+            "homepage": "https://www.horde.org/libraries/Horde_Constraint",
             "support": {
-                "source": "https://github.com/maintaina-com/Constraint/tree/v2.0.3"
+                "source": "https://github.com/maintaina-com/Constraint/tree/master"
             },
-            "time": "2016-02-01T00:00:00+00:00"
+            "time": "2019-05-02T17:45:48+00:00"
         },
         {
             "name": "horde/controller",
@@ -660,26 +678,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Controller.git",
-                "reference": "fd43a6da35ba3acedd09c8ad4825b3984752ced1"
+                "reference": "60f49976eedc0af0f005771ba38a7d2fe6fafd53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/fd43a6da35ba3acedd09c8ad4825b3984752ced1",
-                "reference": "fd43a6da35ba3acedd09c8ad4825b3984752ced1",
+                "url": "https://api.github.com/repos/maintaina-com/Controller/zipball/60f49976eedc0af0f005771ba38a7d2fe6fafd53",
+                "reference": "60f49976eedc0af0f005771ba38a7d2fe6fafd53",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/injector": "^2",
-                "horde/log": "^2",
-                "horde/support": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/injector": "dev-master",
+                "horde/log": "dev-master",
+                "horde/support": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-mbstring": "*",
                 "ext-zlib": "*",
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -703,11 +722,11 @@
                 }
             ],
             "description": "Controller library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Controller",
             "support": {
                 "source": "https://github.com/maintaina-com/Controller/tree/master"
             },
-            "time": "2019-02-07T07:30:13+00:00"
+            "time": "2019-05-02T17:45:55+00:00"
         },
         {
             "name": "horde/core",
@@ -715,56 +734,56 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Core.git",
-                "reference": "a387a63b844273695be46b198c5b6dd73d551795"
+                "reference": "1509957704fd9fd74dad96ca1feb5230e23c307c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Core/zipball/a387a63b844273695be46b198c5b6dd73d551795",
-                "reference": "a387a63b844273695be46b198c5b6dd73d551795",
+                "url": "https://api.github.com/repos/maintaina-com/Core/zipball/1509957704fd9fd74dad96ca1feb5230e23c307c",
+                "reference": "1509957704fd9fd74dad96ca1feb5230e23c307c",
                 "shasum": ""
             },
             "require": {
                 "ext-session": "*",
-                "horde/alarm": "^2.2",
-                "horde/auth": "^2.2",
-                "horde/autoloader": "^2.1",
-                "horde/browser": "^2",
-                "horde/cache": "^2.5",
-                "horde/cli": "^2",
-                "horde/compress": "^2",
-                "horde/compress_fast": "^1",
-                "horde/controller": "^2",
-                "horde/cssminify": "^1",
-                "horde/data": "^2",
-                "horde/date": "^2",
-                "horde/exception": "^2",
-                "horde/group": "^2.1",
-                "horde/hashtable": "^1.2",
-                "horde/history": "^2",
-                "horde/horde-installer-plugin": "*",
-                "horde/injector": "^2",
-                "horde/javascriptminify": "^1",
-                "horde/lock": "^2",
-                "horde/log": "^2",
-                "horde/logintasks": "^2",
-                "horde/mime": "^2.5",
-                "horde/mime_viewer": "^2.2",
-                "horde/notification": "^2",
-                "horde/pack": "^1",
-                "horde/perms": "^2",
-                "horde/prefs": "^2.9",
-                "horde/secret": "^2",
-                "horde/serialize": "^2",
-                "horde/sessionhandler": "^2",
-                "horde/share": "^2",
-                "horde/support": "^2",
-                "horde/template": "^2",
-                "horde/text_filter": "^2",
-                "horde/token": "^2",
-                "horde/translation": "^2.2",
-                "horde/url": "^2.1",
-                "horde/util": "^2",
-                "horde/view": "^2",
+                "horde/alarm": "dev-master",
+                "horde/auth": "dev-master",
+                "horde/autoloader": "dev-master",
+                "horde/browser": "dev-master",
+                "horde/cache": "dev-master",
+                "horde/cli": "dev-master",
+                "horde/compress": "dev-master",
+                "horde/compress_fast": "dev-master",
+                "horde/controller": "dev-master",
+                "horde/cssminify": "dev-master",
+                "horde/data": "dev-master",
+                "horde/date": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/group": "dev-master",
+                "horde/hashtable": "dev-master",
+                "horde/history": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/injector": "dev-master",
+                "horde/javascriptminify": "dev-master",
+                "horde/lock": "dev-master",
+                "horde/log": "dev-master",
+                "horde/logintasks": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/mime_viewer": "dev-master",
+                "horde/notification": "dev-master",
+                "horde/pack": "dev-master",
+                "horde/perms": "dev-master",
+                "horde/prefs": "dev-master",
+                "horde/secret": "dev-master",
+                "horde/serialize": "dev-master",
+                "horde/sessionhandler": "dev-master",
+                "horde/share": "dev-master",
+                "horde/support": "dev-master",
+                "horde/template": "dev-master",
+                "horde/text_filter": "dev-master",
+                "horde/token": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/url": "dev-master",
+                "horde/util": "dev-master",
+                "horde/view": "dev-master",
                 "pear-pear.php.net/pear": "*",
                 "php": "^5.3 || ^7"
             },
@@ -838,11 +857,11 @@
                 }
             ],
             "description": "Core Horde Framework library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Core",
             "support": {
                 "source": "https://github.com/maintaina-com/Core/tree/master"
             },
-            "time": "2019-04-04T17:30:20+00:00"
+            "time": "2019-05-02T17:34:33+00:00"
         },
         {
             "name": "horde/crypt_blowfish",
@@ -850,23 +869,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Crypt_Blowfish.git",
-                "reference": "d949f64805bf568dfea5bbcbca3c358113152a8f"
+                "reference": "97b60beb8d3399f81b6f39c4eccc41066bf6e003"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/d949f64805bf568dfea5bbcbca3c358113152a8f",
-                "reference": "d949f64805bf568dfea5bbcbca3c358113152a8f",
+                "url": "https://api.github.com/repos/maintaina-com/Crypt_Blowfish/zipball/97b60beb8d3399f81b6f39c4eccc41066bf6e003",
+                "reference": "97b60beb8d3399f81b6f39c4eccc41066bf6e003",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-mcrypt": "*",
                 "ext-openssl": "*",
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -885,33 +905,39 @@
                 }
             ],
             "description": "Blowfish encryption library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Crypt_Blowfish",
             "support": {
                 "source": "https://github.com/maintaina-com/Crypt_Blowfish/tree/master"
             },
-            "time": "2019-02-07T14:48:36+00:00"
+            "time": "2019-05-02T17:46:23+00:00"
         },
         {
             "name": "horde/css_parser",
-            "version": "1.0.11",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Css_Parser.git",
-                "reference": "3af6b89d9b29a8f52dcb5886fb2b6678053f4c7d"
+                "reference": "9f6f1af7b75d18e434adacf16c53c5aebed4f1bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/3af6b89d9b29a8f52dcb5886fb2b6678053f4c7d",
-                "reference": "3af6b89d9b29a8f52dcb5886fb2b6678053f4c7d",
+                "url": "https://api.github.com/repos/maintaina-com/Css_Parser/zipball/9f6f1af7b75d18e434adacf16c53c5aebed4f1bd",
+                "reference": "9f6f1af7b75d18e434adacf16c53c5aebed4f1bd",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2,<=8.0.0alpha1"
+                "horde/horde-installer-plugin": "dev-master",
+                "php": "^5.3.2 || ^7"
             },
             "suggest": {
                 "ext-mbstring": "*"
             },
-            "type": "library",
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Css_Parser": "lib/"
+                }
+            },
             "license": [
                 "LGPL-2.1"
             ],
@@ -922,12 +948,12 @@
                     "role": "lead"
                 }
             ],
-            "description": "Horde CSS Parser",
-            "homepage": "https://pear.horde.org",
+            "description": "CSS parser library",
+            "homepage": "https://www.horde.org",
             "support": {
-                "source": "https://github.com/maintaina-com/Css_Parser/tree/v1.0.11"
+                "source": "https://github.com/maintaina-com/Css_Parser/tree/master"
             },
-            "time": "2016-07-02T00:00:00+00:00"
+            "time": "2019-05-02T17:46:42+00:00"
         },
         {
             "name": "horde/cssminify",
@@ -935,19 +961,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/CssMinify.git",
-                "reference": "b16961d74377078b2704b9b0214218ae96c19dcd"
+                "reference": "a24dd34a550a049a9741e972afb91ad855487126"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/b16961d74377078b2704b9b0214218ae96c19dcd",
-                "reference": "b16961d74377078b2704b9b0214218ae96c19dcd",
+                "url": "https://api.github.com/repos/maintaina-com/CssMinify/zipball/a24dd34a550a049a9741e972afb91ad855487126",
+                "reference": "a24dd34a550a049a9741e972afb91ad855487126",
                 "shasum": ""
             },
             "require": {
-                "horde/css_parser": "^1",
-                "horde/exception": "^2",
-                "horde/log": "^2",
-                "horde/url": "^2",
+                "horde/css_parser": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/log": "dev-master",
+                "horde/url": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "type": "horde-library",
@@ -971,7 +998,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/CssMinify/tree/master"
             },
-            "time": "2019-02-07T07:44:27+00:00"
+            "time": "2019-05-02T17:46:32+00:00"
         },
         {
             "name": "horde/data",
@@ -979,26 +1006,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Data.git",
-                "reference": "e9f2c92d5015692eb69eb3517ca784c1b8de7fda"
+                "reference": "d4c4101e2f120e75cee2d34dc8dad3d75f982f5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Data/zipball/e9f2c92d5015692eb69eb3517ca784c1b8de7fda",
-                "reference": "e9f2c92d5015692eb69eb3517ca784c1b8de7fda",
+                "url": "https://api.github.com/repos/maintaina-com/Data/zipball/d4c4101e2f120e75cee2d34dc8dad3d75f982f5b",
+                "reference": "d4c4101e2f120e75cee2d34dc8dad3d75f982f5b",
                 "shasum": ""
             },
             "require": {
-                "horde/browser": "^2",
-                "horde/exception": "^2",
-                "horde/icalendar": "^2",
-                "horde/mail": "^2",
-                "horde/mime": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/browser": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/icalendar": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1022,11 +1050,11 @@
                 }
             ],
             "description": "Data import and export library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Data",
             "support": {
                 "source": "https://github.com/maintaina-com/Data/tree/master"
             },
-            "time": "2019-02-07T08:04:29+00:00"
+            "time": "2019-05-02T17:46:51+00:00"
         },
         {
             "name": "horde/date",
@@ -1034,24 +1062,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Date.git",
-                "reference": "fd3d404ed5e0604d2689890c82e0567968b7361a"
+                "reference": "951b2e9978567a3241177f6dca8041d6f0cff7a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Date/zipball/fd3d404ed5e0604d2689890c82e0567968b7361a",
-                "reference": "fd3d404ed5e0604d2689890c82e0567968b7361a",
+                "url": "https://api.github.com/repos/maintaina-com/Date/zipball/951b2e9978567a3241177f6dca8041d6f0cff7a6",
+                "reference": "951b2e9978567a3241177f6dca8041d6f0cff7a6",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/nls": "^2",
-                "horde/translation": "^2.2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/nls": "dev-master",
+                "horde/translation": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-calendar": "*",
-                "horde/Icalendar": "^2",
-                "horde/Test": "^2.1"
+                "horde/icalendar": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1075,34 +1104,69 @@
                 }
             ],
             "description": "Date library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Date",
             "support": {
                 "source": "https://github.com/maintaina-com/Date/tree/master"
             },
-            "time": "2019-02-06T10:22:52+00:00"
+            "time": "2019-05-02T17:46:59+00:00"
         },
         {
             "name": "horde/dav",
-            "version": "v1.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Dav.git",
-                "reference": "9fd1937df9f3261626200e69cd2e4ae37e59cf72"
+                "reference": "47dde195a9bd202d312d33b406ab547d2646732c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/9fd1937df9f3261626200e69cd2e4ae37e59cf72",
-                "reference": "9fd1937df9f3261626200e69cd2e4ae37e59cf72",
+                "url": "https://api.github.com/repos/maintaina-com/Dav/zipball/47dde195a9bd202d312d33b406ab547d2646732c",
+                "reference": "47dde195a9bd202d312d33b406ab547d2646732c",
                 "shasum": ""
             },
             "require": {
-                "sabre/dav": "1.8.*"
+                "ext-ctype": "*",
+                "ext-date": "*",
+                "ext-dom": "*",
+                "ext-iconv": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-pcre": "*",
+                "ext-simplexml": "*",
+                "ext-spl": "*",
+                "horde/auth": "dev-master",
+                "horde/core": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/http": "dev-master",
+                "horde/stream": "dev-master",
+                "horde/translation": "dev-master",
+                "php": "^5.4.1 || ^7"
             },
-            "type": "library",
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Dav": "lib/"
+                }
+            },
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Schneider",
+                    "email": "jan@horde.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "WebDAV, CalDAV, and CardDAV library",
+            "homepage": "https://www.horde.org",
             "support": {
-                "source": "https://github.com/maintaina-com/Dav/tree/v1.0.4"
+                "source": "https://github.com/maintaina-com/Dav/tree/master"
             },
-            "time": "2014-03-03T16:32:11+00:00"
+            "time": "2019-05-02T17:47:16+00:00"
         },
         {
             "name": "horde/db",
@@ -1110,20 +1174,20 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Db.git",
-                "reference": "bba1c79adca2878b13751d3c306418a6fe1fdf31"
+                "reference": "a9b4d4655f219d79461a1cf00cf215ab908f4f6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Db/zipball/bba1c79adca2878b13751d3c306418a6fe1fdf31",
-                "reference": "bba1c79adca2878b13751d3c306418a6fe1fdf31",
+                "url": "https://api.github.com/repos/maintaina-com/Db/zipball/a9b4d4655f219d79461a1cf00cf215ab908f4f6d",
+                "reference": "a9b4d4655f219d79461a1cf00cf215ab908f4f6d",
                 "shasum": ""
             },
             "require": {
-                "horde/date": "^2",
-                "horde/exception": "^2",
-                "horde/horde-installer-plugin": "*",
-                "horde/support": "^2",
-                "horde/util": "^2",
+                "horde/date": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -1163,11 +1227,11 @@
                 }
             ],
             "description": "Database abstraction library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Db",
             "support": {
                 "source": "https://github.com/maintaina-com/Db/tree/master"
             },
-            "time": "2019-02-13T07:49:50+00:00"
+            "time": "2019-05-02T17:47:23+00:00"
         },
         {
             "name": "horde/exception",
@@ -1175,20 +1239,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Exception.git",
-                "reference": "ab8572e5c3ef21a4bfbc1da0350c7c7848d68abb"
+                "reference": "6741174f390d711248f367da842e99dcb565ebdb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/ab8572e5c3ef21a4bfbc1da0350c7c7848d68abb",
-                "reference": "ab8572e5c3ef21a4bfbc1da0350c7c7848d68abb",
+                "url": "https://api.github.com/repos/maintaina-com/Exception/zipball/6741174f390d711248f367da842e99dcb565ebdb",
+                "reference": "6741174f390d711248f367da842e99dcb565ebdb",
                 "shasum": ""
             },
             "require": {
-                "horde/translation": "^2.2",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1217,11 +1282,11 @@
                 }
             ],
             "description": "Exception handler library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Exception",
             "support": {
                 "source": "https://github.com/maintaina-com/Exception/tree/master"
             },
-            "time": "2019-02-13T07:22:37+00:00"
+            "time": "2019-05-02T17:47:32+00:00"
         },
         {
             "name": "horde/group",
@@ -1229,25 +1294,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Group.git",
-                "reference": "b6209892404817b5d1920687b8e6f8b6ab95eb0d"
+                "reference": "5d18b9bccfeac9311182570c07107f34911f8e15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Group/zipball/b6209892404817b5d1920687b8e6f8b6ab95eb0d",
-                "reference": "b6209892404817b5d1920687b8e6f8b6ab95eb0d",
+                "url": "https://api.github.com/repos/maintaina-com/Group/zipball/5d18b9bccfeac9311182570c07107f34911f8e15",
+                "reference": "5d18b9bccfeac9311182570c07107f34911f8e15",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Cache": "^2",
-                "horde/Db": "^2",
-                "horde/Ldap": "^2",
-                "horde/Test": "^2.1"
+                "horde/cache": "^2",
+                "horde/db": "^2",
+                "horde/ldap": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1271,11 +1337,11 @@
                 }
             ],
             "description": "User groups library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Group",
             "support": {
                 "source": "https://github.com/maintaina-com/Group/tree/master"
             },
-            "time": "2019-02-06T11:23:50+00:00"
+            "time": "2019-05-02T17:47:47+00:00"
         },
         {
             "name": "horde/hashtable",
@@ -1283,22 +1349,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/HashTable.git",
-                "reference": "d46ab92101dad19df737f2fe1171a2493de6a410"
+                "reference": "00d554ad2a9ffffd3db6e8518563c140d378fb0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/d46ab92101dad19df737f2fe1171a2493de6a410",
-                "reference": "d46ab92101dad19df737f2fe1171a2493de6a410",
+                "url": "https://api.github.com/repos/maintaina-com/HashTable/zipball/00d554ad2a9ffffd3db6e8518563c140d378fb0f",
+                "reference": "00d554ad2a9ffffd3db6e8518563c140d378fb0f",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Log": "^2",
-                "horde/Memcache": "^2",
-                "horde/Vfs": "^2",
+                "horde/log": "^2",
+                "horde/memcache": "^2",
+                "horde/vfs": "^2",
                 "pear-pear.nrk.io/Predis": "^1"
             },
             "type": "horde-library",
@@ -1322,7 +1389,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/HashTable/tree/master"
             },
-            "time": "2019-02-07T09:05:41+00:00"
+            "time": "2019-05-02T17:47:55+00:00"
         },
         {
             "name": "horde/history",
@@ -1330,23 +1397,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/History.git",
-                "reference": "1bd997d605b2e64bab4dd005bc638e4c460a01a9"
+                "reference": "598e4ecf60fd0584114ce5b15a4589d385923eef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/History/zipball/1bd997d605b2e64bab4dd005bc638e4c460a01a9",
-                "reference": "1bd997d605b2e64bab4dd005bc638e4c460a01a9",
+                "url": "https://api.github.com/repos/maintaina-com/History/zipball/598e4ecf60fd0584114ce5b15a4589d385923eef",
+                "reference": "598e4ecf60fd0584114ce5b15a4589d385923eef",
                 "shasum": ""
             },
             "require": {
-                "horde/db": "^2",
-                "horde/exception": "^2",
+                "horde/db": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/HashTable": "^1",
-                "horde/Mongo": "^1",
-                "horde/Test": "^2.1"
+                "horde/hashtable": "^1",
+                "horde/mongo": "^1",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1365,11 +1433,11 @@
                 }
             ],
             "description": "History tracking library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_History",
             "support": {
                 "source": "https://github.com/maintaina-com/History/tree/master"
             },
-            "time": "2019-02-07T09:11:39+00:00"
+            "time": "2019-05-02T17:52:35+00:00"
         },
         {
             "name": "horde/horde-installer-plugin",
@@ -1415,22 +1483,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Http.git",
-                "reference": "ded6326c7a2fdb5deab9c6c4a54155206e7d7302"
+                "reference": "4056a6f6d0d23711601aca2346137d0a71aa0a50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Http/zipball/ded6326c7a2fdb5deab9c6c4a54155206e7d7302",
-                "reference": "ded6326c7a2fdb5deab9c6c4a54155206e7d7302",
+                "url": "https://api.github.com/repos/maintaina-com/Http/zipball/4056a6f6d0d23711601aca2346137d0a71aa0a50",
+                "reference": "4056a6f6d0d23711601aca2346137d0a71aa0a50",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "ext-pecl_http": "*",
-                "horde/Test": "^2.1"
+                "ext-curl": "*",
+                "ext-pecl_http": "^1.7 || ^2 || ^3",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1454,11 +1524,11 @@
                 }
             ],
             "description": "HTTP client library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Http",
             "support": {
                 "source": "https://github.com/maintaina-com/Http/tree/master"
             },
-            "time": "2019-02-07T18:21:06+00:00"
+            "time": "2019-05-02T17:52:45+00:00"
         },
         {
             "name": "horde/icalendar",
@@ -1466,25 +1536,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Icalendar.git",
-                "reference": "180eee6828450301e16c4929e2e81cda63e322e4"
+                "reference": "b9c0e4a764aea76e50ddc5f1e05ee8dcecbef907"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/180eee6828450301e16c4929e2e81cda63e322e4",
-                "reference": "180eee6828450301e16c4929e2e81cda63e322e4",
+                "url": "https://api.github.com/repos/maintaina-com/Icalendar/zipball/b9c0e4a764aea76e50ddc5f1e05ee8dcecbef907",
+                "reference": "b9c0e4a764aea76e50ddc5f1e05ee8dcecbef907",
                 "shasum": ""
             },
             "require": {
-                "horde/date": "^2",
-                "horde/exception": "^2",
-                "horde/mail": "^2",
-                "horde/support": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/date": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/support": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1513,11 +1584,11 @@
                 }
             ],
             "description": "iCalendar and vCard library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Icalendar",
             "support": {
                 "source": "https://github.com/maintaina-com/Icalendar/tree/master"
             },
-            "time": "2019-02-07T14:36:48+00:00"
+            "time": "2019-05-02T17:52:54+00:00"
         },
         {
             "name": "horde/idna",
@@ -1525,17 +1596,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Idna.git",
-                "reference": "c06cdafe80a7c8e3b3c23853651ca565453151f5"
+                "reference": "6a2ac3cfc1bf2e2afc5ccb31a07669d39ac7eed3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/c06cdafe80a7c8e3b3c23853651ca565453151f5",
-                "reference": "c06cdafe80a7c8e3b3c23853651ca565453151f5",
+                "url": "https://api.github.com/repos/maintaina-com/Idna/zipball/6a2ac3cfc1bf2e2afc5ccb31a07669d39ac7eed3",
+                "reference": "6a2ac3cfc1bf2e2afc5ccb31a07669d39ac7eed3",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "*",
-                "horde/util": "*",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -1562,7 +1634,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Idna/tree/master"
             },
-            "time": "2019-02-07T13:49:18+00:00"
+            "time": "2019-05-02T17:53:02+00:00"
         },
         {
             "name": "horde/injector",
@@ -1570,20 +1642,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Injector.git",
-                "reference": "3088e2585035b3dbf4c6214d5713c831f6fa44a2"
+                "reference": "8077810aaa4e9e169247dbcfd1c7da312fe62606"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Injector/zipball/3088e2585035b3dbf4c6214d5713c831f6fa44a2",
-                "reference": "3088e2585035b3dbf4c6214d5713c831f6fa44a2",
+                "url": "https://api.github.com/repos/maintaina-com/Injector/zipball/8077810aaa4e9e169247dbcfd1c7da312fe62606",
+                "reference": "8077810aaa4e9e169247dbcfd1c7da312fe62606",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1602,11 +1675,11 @@
                 }
             ],
             "description": "Dependency injection container library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Injector",
             "support": {
                 "source": "https://github.com/maintaina-com/Injector/tree/master"
             },
-            "time": "2019-02-07T09:23:22+00:00"
+            "time": "2019-05-02T17:53:19+00:00"
         },
         {
             "name": "horde/javascriptminify",
@@ -1614,18 +1687,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/JavascriptMinify.git",
-                "reference": "dad0e1c3280377e418250f9060fbd6f06b76f01d"
+                "reference": "45843b82bbfb1080d92b8d12e936492fd0992767"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify/zipball/dad0e1c3280377e418250f9060fbd6f06b76f01d",
-                "reference": "dad0e1c3280377e418250f9060fbd6f06b76f01d",
+                "url": "https://api.github.com/repos/maintaina-com/JavascriptMinify/zipball/45843b82bbfb1080d92b8d12e936492fd0992767",
+                "reference": "45843b82bbfb1080d92b8d12e936492fd0992767",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/log": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/log": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "type": "horde-library",
@@ -1649,7 +1723,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/JavascriptMinify/tree/master"
             },
-            "time": "2019-02-07T09:28:30+00:00"
+            "time": "2019-05-02T17:53:32+00:00"
         },
         {
             "name": "horde/listheaders",
@@ -1657,23 +1731,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/ListHeaders.git",
-                "reference": "a92c96e95951559f9bfbb90c77da88167c8c205d"
+                "reference": "044327ae14f1e34340ff315a9c4daf2575f4aec1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/a92c96e95951559f9bfbb90c77da88167c8c205d",
-                "reference": "a92c96e95951559f9bfbb90c77da88167c8c205d",
+                "url": "https://api.github.com/repos/maintaina-com/ListHeaders/zipball/044327ae14f1e34340ff315a9c4daf2575f4aec1",
+                "reference": "044327ae14f1e34340ff315a9c4daf2575f4aec1",
                 "shasum": ""
             },
             "require": {
-                "horde/mail": ">2",
-                "horde/translation": ">2.2",
-                "horde/util": ">2",
-                "php": "*"
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Mime": ">2.5",
-                "horde/Test": ">2.1"
+                "horde/mime": "^2.5",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1692,11 +1767,11 @@
                 }
             ],
             "description": "List headers parsing library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_ListHeaders",
             "support": {
                 "source": "https://github.com/maintaina-com/ListHeaders/tree/master"
             },
-            "time": "2019-02-07T13:38:22+00:00"
+            "time": "2019-05-02T17:53:51+00:00"
         },
         {
             "name": "horde/lock",
@@ -1704,23 +1779,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Lock.git",
-                "reference": "59527b5f86b142747739f3c32087a2cba84fb647"
+                "reference": "f525c83b5d5fabfe41eb02e4eb25c5ecf86807c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Lock/zipball/59527b5f86b142747739f3c32087a2cba84fb647",
-                "reference": "59527b5f86b142747739f3c32087a2cba84fb647",
+                "url": "https://api.github.com/repos/maintaina-com/Lock/zipball/f525c83b5d5fabfe41eb02e4eb25c5ecf86807c5",
+                "reference": "f525c83b5d5fabfe41eb02e4eb25c5ecf86807c5",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Db": "^2",
-                "horde/Log": "^2",
-                "horde/Mongo": "^1"
+                "horde/db": "^2",
+                "horde/log": "^2",
+                "horde/mongo": "^1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1739,11 +1815,11 @@
                 }
             ],
             "description": "Resource locking library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Lock",
             "support": {
                 "source": "https://github.com/maintaina-com/Lock/tree/master"
             },
-            "time": "2019-02-07T19:46:10+00:00"
+            "time": "2019-05-02T17:53:59+00:00"
         },
         {
             "name": "horde/log",
@@ -1751,25 +1827,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Log.git",
-                "reference": "dcb6f6439108df46fd3fd30c536169990c46d27e"
+                "reference": "40f78b79e2b7ac2c4fc5caa3f66db82cffe1bca6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Log/zipball/dcb6f6439108df46fd3fd30c536169990c46d27e",
-                "reference": "dcb6f6439108df46fd3fd30c536169990c46d27e",
+                "url": "https://api.github.com/repos/maintaina-com/Log/zipball/40f78b79e2b7ac2c4fc5caa3f66db82cffe1bca6",
+                "reference": "40f78b79e2b7ac2c4fc5caa3f66db82cffe1bca6",
                 "shasum": ""
             },
             "require": {
-                "horde/constraint": "^2",
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/constraint": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-dom": "*",
-                "horde/Cli": "^2",
-                "horde/Scribe": "^2",
-                "horde/Test": "^2.1"
+                "horde/cli": "^2",
+                "horde/scribe": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1793,11 +1870,11 @@
                 }
             ],
             "description": "Logging library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Log",
             "support": {
                 "source": "https://github.com/maintaina-com/Log/tree/master"
             },
-            "time": "2019-02-07T09:45:54+00:00"
+            "time": "2019-05-02T17:54:10+00:00"
         },
         {
             "name": "horde/logintasks",
@@ -1805,21 +1882,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/LoginTasks.git",
-                "reference": "d351e6588d7142da277f980bf43e177057ed924e"
+                "reference": "aa488f22abda7dcf24683696a6f420824a4fc4a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/d351e6588d7142da277f980bf43e177057ed924e",
-                "reference": "d351e6588d7142da277f980bf43e177057ed924e",
+                "url": "https://api.github.com/repos/maintaina-com/LoginTasks/zipball/aa488f22abda7dcf24683696a6f420824a4fc4a0",
+                "reference": "aa488f22abda7dcf24683696a6f420824a4fc4a0",
                 "shasum": ""
             },
             "require": {
-                "horde/translation": "^2.2",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Date": "^2",
-                "horde/Test": "^2.1"
+                "horde/date": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -1838,11 +1916,11 @@
                 }
             ],
             "description": "Login tasks library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_LoginTasks",
             "support": {
                 "source": "https://github.com/maintaina-com/LoginTasks/tree/master"
             },
-            "time": "2019-02-06T11:40:32+00:00"
+            "time": "2019-05-02T17:54:19+00:00"
         },
         {
             "name": "horde/mail",
@@ -1850,22 +1928,22 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Mail.git",
-                "reference": "a9808bb0a785c1f716987b426d8e54845481583f"
+                "reference": "e0fe7cbf701bc5392dc144c51bad85fd14a51fbd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/a9808bb0a785c1f716987b426d8e54845481583f",
-                "reference": "a9808bb0a785c1f716987b426d8e54845481583f",
+                "url": "https://api.github.com/repos/maintaina-com/Mail/zipball/e0fe7cbf701bc5392dc144c51bad85fd14a51fbd",
+                "reference": "e0fe7cbf701bc5392dc144c51bad85fd14a51fbd",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/horde-installer-plugin": "*",
-                "horde/idna": "^1",
-                "horde/mime": "^2",
-                "horde/stream_filter": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/idna": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/stream_filter": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -1892,11 +1970,11 @@
                 }
             ],
             "description": "Mail library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Mail",
             "support": {
                 "source": "https://github.com/maintaina-com/Mail/tree/master"
             },
-            "time": "2019-02-13T07:47:20+00:00"
+            "time": "2019-05-02T17:54:32+00:00"
         },
         {
             "name": "horde/mime",
@@ -1904,30 +1982,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Mime.git",
-                "reference": "316a40ffb4146851fab7ddc9b51f270c5ddd21fb"
+                "reference": "2e27df5674231ddd64325097ecf26c657e46424f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/316a40ffb4146851fab7ddc9b51f270c5ddd21fb",
-                "reference": "316a40ffb4146851fab7ddc9b51f270c5ddd21fb",
+                "url": "https://api.github.com/repos/maintaina-com/Mime/zipball/2e27df5674231ddd64325097ecf26c657e46424f",
+                "reference": "2e27df5674231ddd64325097ecf26c657e46424f",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "*",
-                "horde/listheaders": "*",
-                "horde/mail": "*",
-                "horde/stream": "*",
-                "horde/stream_filter": "*",
-                "horde/support": "*",
-                "horde/text_flowed": "*",
-                "horde/translation": "*",
-                "horde/util": "*",
-                "php": "*"
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/listheaders": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/stream": "dev-master",
+                "horde/stream_filter": "dev-master",
+                "horde/support": "dev-master",
+                "horde/text_flowed": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Nls": "*",
-                "horde/Test": "*",
-                "horde/Text_Filter": "*"
+                "ext-idn": "*",
+                "ext-intl": "*",
+                "horde/nls": "^2",
+                "horde/test": "^2.1",
+                "horde/text_filter": "^2",
+                "pear-pear.php.net/Net_DNS2": "*"
             },
             "type": "horde-library",
             "autoload": {
@@ -1951,11 +2033,11 @@
                 }
             ],
             "description": "MIME library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Mime",
             "support": {
                 "source": "https://github.com/maintaina-com/Mime/tree/master"
             },
-            "time": "2019-02-07T13:08:18+00:00"
+            "time": "2019-05-02T17:54:40+00:00"
         },
         {
             "name": "horde/mime_viewer",
@@ -1963,24 +2045,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Mime_Viewer.git",
-                "reference": "395e893eb6433bbad963ae3d75b7ade8c6c6fef3"
+                "reference": "0a14d21087175d38007b8c767512c6520857c1ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Mime_Viewer/zipball/395e893eb6433bbad963ae3d75b7ade8c6c6fef3",
-                "reference": "395e893eb6433bbad963ae3d75b7ade8c6c6fef3",
+                "url": "https://api.github.com/repos/maintaina-com/Mime_Viewer/zipball/0a14d21087175d38007b8c767512c6520857c1ab",
+                "reference": "0a14d21087175d38007b8c767512c6520857c1ab",
                 "shasum": ""
             },
             "require": {
                 "ext-xml": "*",
-                "horde/browser": "^2",
-                "horde/compress": "^2",
-                "horde/exception": "^2",
-                "horde/mime": "^2",
-                "horde/text_filter": "^2",
-                "horde/text_flowed": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/browser": "dev-master",
+                "horde/compress": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/text_filter": "dev-master",
+                "horde/text_flowed": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -2003,11 +2086,11 @@
                 }
             ],
             "description": "MIME viewer library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Mime_Viewer",
             "support": {
                 "source": "https://github.com/maintaina-com/Mime_Viewer/tree/master"
             },
-            "time": "2019-02-07T09:58:11+00:00"
+            "time": "2019-05-02T17:54:48+00:00"
         },
         {
             "name": "horde/nls",
@@ -2015,17 +2098,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Nls.git",
-                "reference": "b7626911000eea5e42001cb83f456170f83b875c"
+                "reference": "ef66fd3023998e27465da03740fa3af58473b96e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/b7626911000eea5e42001cb83f456170f83b875c",
-                "reference": "b7626911000eea5e42001cb83f456170f83b875c",
+                "url": "https://api.github.com/repos/maintaina-com/Nls/zipball/ef66fd3023998e27465da03740fa3af58473b96e",
+                "reference": "ef66fd3023998e27465da03740fa3af58473b96e",
                 "shasum": ""
             },
             "require": {
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -2054,11 +2138,11 @@
                 }
             ],
             "description": "Native language support library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Nls",
             "support": {
                 "source": "https://github.com/maintaina-com/Nls/tree/master"
             },
-            "time": "2019-02-07T17:34:15+00:00"
+            "time": "2019-05-02T17:54:55+00:00"
         },
         {
             "name": "horde/notification",
@@ -2066,24 +2150,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Notification.git",
-                "reference": "75a69eb3d9ecdc80f233bb07085e3f3bd79033a7"
+                "reference": "bcc38ae59dfd79a3f9f93be8a9ea04cb40ee1f66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/75a69eb3d9ecdc80f233bb07085e3f3bd79033a7",
-                "reference": "75a69eb3d9ecdc80f233bb07085e3f3bd79033a7",
+                "url": "https://api.github.com/repos/maintaina-com/Notification/zipball/bcc38ae59dfd79a3f9f93be8a9ea04cb40ee1f66",
+                "reference": "bcc38ae59dfd79a3f9f93be8a9ea04cb40ee1f66",
                 "shasum": ""
             },
             "require": {
                 "ext-gettext": "*",
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Alarm": "^2",
-                "horde/Nls": "^2",
-                "horde/Test": "^2.1"
+                "horde/alarm": "^2",
+                "horde/nls": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2102,11 +2187,11 @@
                 }
             ],
             "description": "Notification library implementing subject-observer pattern",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Notification",
             "support": {
                 "source": "https://github.com/maintaina-com/Notification/tree/master"
             },
-            "time": "2019-02-07T09:32:41+00:00"
+            "time": "2019-05-02T17:55:03+00:00"
         },
         {
             "name": "horde/pack",
@@ -2114,24 +2199,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Pack.git",
-                "reference": "ab7bd28252843899c7c9031a8d090518d1d260b7"
+                "reference": "f1711fa730afa6474b127f7ec08feb340a931808"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/ab7bd28252843899c7c9031a8d090518d1d260b7",
-                "reference": "ab7bd28252843899c7c9031a8d090518d1d260b7",
+                "url": "https://api.github.com/repos/maintaina-com/Pack/zipball/f1711fa730afa6474b127f7ec08feb340a931808",
+                "reference": "f1711fa730afa6474b127f7ec08feb340a931808",
                 "shasum": ""
             },
             "require": {
-                "horde/compress_fast": "^1",
-                "horde/exception": "^2",
+                "horde/compress_fast": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-igbinary": "^1.2",
                 "ext-json": "*",
                 "ext-msgpack": "*",
-                "horde/Test": "^2"
+                "horde/test": "^2"
             },
             "type": "horde-library",
             "autoload": {
@@ -2154,7 +2240,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Pack/tree/master"
             },
-            "time": "2019-02-07T17:33:44+00:00"
+            "time": "2019-05-02T17:55:10+00:00"
         },
         {
             "name": "horde/pear",
@@ -2162,30 +2248,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Pear.git",
-                "reference": "5c68382f5d8925344eeda5e2e9dc29a31094a707"
+                "reference": "d2c1e87d136b6572539f3dec19c224a7c5cebd63"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/5c68382f5d8925344eeda5e2e9dc29a31094a707",
-                "reference": "5c68382f5d8925344eeda5e2e9dc29a31094a707",
+                "url": "https://api.github.com/repos/maintaina-com/Pear/zipball/d2c1e87d136b6572539f3dec19c224a7c5cebd63",
+                "reference": "d2c1e87d136b6572539f3dec19c224a7c5cebd63",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/util": "^2",
-                "horde/xml_element": "^2",
-                "horde/yaml": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
+                "horde/xml_element": "dev-master",
+                "horde/yaml": "dev-master",
                 "php": "^5.3 || ^7"
             },
-            "replace": {
-                "pear-horde/horde_pear": "1.*",
-                "pear-pear.horde.org/horde_pear": "1.*"
-            },
             "suggest": {
-                "pear-pear.horde.org/Horde_Http": "^2",
-                "pear-pear.horde.org/Horde_Test": "^2.1"
+                "horde/http": "^2",
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
             "autoload": {
                 "psr-0": {
                     "Horde_Pear": "lib/"
@@ -2206,7 +2289,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Pear/tree/master"
             },
-            "time": "2019-04-12T16:15:43+00:00"
+            "time": "2019-05-02T17:55:19+00:00"
         },
         {
             "name": "horde/perms",
@@ -2214,25 +2297,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Perms.git",
-                "reference": "5732857c70b26feeef0f3d57f65dbb959009a8aa"
+                "reference": "3406b987cf8e806ece333eb2d3a5498ebda02d90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Perms/zipball/5732857c70b26feeef0f3d57f65dbb959009a8aa",
-                "reference": "5732857c70b26feeef0f3d57f65dbb959009a8aa",
+                "url": "https://api.github.com/repos/maintaina-com/Perms/zipball/3406b987cf8e806ece333eb2d3a5498ebda02d90",
+                "reference": "3406b987cf8e806ece333eb2d3a5498ebda02d90",
                 "shasum": ""
             },
             "require": {
-                "horde/db": "^2",
-                "horde/exception": "^2",
-                "horde/group": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/db": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/group": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1",
-                "horde/Tree": "^2"
+                "horde/test": "^2.1",
+                "horde/tree": "^2"
             },
             "type": "horde-library",
             "autoload": {
@@ -2256,11 +2340,11 @@
                 }
             ],
             "description": "Permissions library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Perms",
             "support": {
                 "source": "https://github.com/maintaina-com/Perms/tree/master"
             },
-            "time": "2019-02-06T12:23:01+00:00"
+            "time": "2019-05-02T17:55:30+00:00"
         },
         {
             "name": "horde/prefs",
@@ -2268,33 +2352,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Prefs.git",
-                "reference": "5d444016cda0f23a8d545a66d55382dfc5fd26e0"
+                "reference": "71dc58e9a1654ef4a25da7d50f9f41b9c95fdf8b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/5d444016cda0f23a8d545a66d55382dfc5fd26e0",
-                "reference": "5d444016cda0f23a8d545a66d55382dfc5fd26e0",
+                "url": "https://api.github.com/repos/maintaina-com/Prefs/zipball/71dc58e9a1654ef4a25da7d50f9f41b9c95fdf8b",
+                "reference": "71dc58e9a1654ef4a25da7d50f9f41b9c95fdf8b",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "horde/exception": "^2",
-                "horde/mail": "^2",
-                "horde/mime": "^2",
-                "horde/translation": "^2.2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Autoloader": "^2",
-                "horde/Cache": "^2",
-                "horde/Db": "^2.2",
-                "horde/Image": "^2",
-                "horde/Imsp": "^2",
-                "horde/Kolab_Storage": "^2",
-                "horde/Ldap": "^2",
-                "horde/Mongo": "^1",
-                "horde/Test": "^2.1"
+                "horde/autoloader": "^2",
+                "horde/cache": "^2",
+                "horde/db": "^2.2",
+                "horde/image": "^2",
+                "horde/imsp": "^2",
+                "horde/kolab_storage": "^2",
+                "horde/ldap": "^2",
+                "horde/mongo": "^1",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2323,11 +2408,11 @@
                 }
             ],
             "description": "User preferences library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Prefs",
             "support": {
                 "source": "https://github.com/maintaina-com/Prefs/tree/master"
             },
-            "time": "2019-02-06T12:32:06+00:00"
+            "time": "2019-05-02T17:55:38+00:00"
         },
         {
             "name": "horde/release",
@@ -2335,32 +2420,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Release.git",
-                "reference": "00b3010fcb5b449963f872ec7cffa65c7dfea42b"
+                "reference": "47ae6e61961427ed6d3626ec211ea7bf9c104bee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Release/zipball/00b3010fcb5b449963f872ec7cffa65c7dfea42b",
-                "reference": "00b3010fcb5b449963f872ec7cffa65c7dfea42b",
+                "url": "https://api.github.com/repos/maintaina-com/Release/zipball/47ae6e61961427ed6d3626ec211ea7bf9c104bee",
+                "reference": "47ae6e61961427ed6d3626ec211ea7bf9c104bee",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/http": "^2",
-                "horde/mail": "^2",
-                "horde/mime": "^2",
-                "horde/rpc": "^2",
-                "horde/serialize": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/http": "dev-master",
+                "horde/mail": "dev-master",
+                "horde/mime": "dev-master",
+                "horde/rpc": "dev-master",
+                "horde/serialize": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
-            "replace": {
-                "pear-horde/horde_release": "3.*",
-                "pear-pear.horde.org/horde_release": "3.*"
-            },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": "^2.1"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
             "autoload": {
                 "psr-0": {
                     "Horde_Release": "lib/"
@@ -2381,7 +2463,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Release/tree/master"
             },
-            "time": "2019-04-12T16:43:33+00:00"
+            "time": "2019-05-02T17:55:59+00:00"
         },
         {
             "name": "horde/role",
@@ -2389,22 +2471,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Role.git",
-                "reference": "a02cc9b1d74f6e5d93a13bbeba6e74b96ec5b6a0"
+                "reference": "6f2ee2f4e7b49e59755698c9337b1aa85f213679"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Role/zipball/a02cc9b1d74f6e5d93a13bbeba6e74b96ec5b6a0",
-                "reference": "a02cc9b1d74f6e5d93a13bbeba6e74b96ec5b6a0",
+                "url": "https://api.github.com/repos/maintaina-com/Role/zipball/6f2ee2f4e7b49e59755698c9337b1aa85f213679",
+                "reference": "6f2ee2f4e7b49e59755698c9337b1aa85f213679",
                 "shasum": ""
             },
             "require": {
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
-            "replace": {
-                "pear-horde/horde_role": "1.*",
-                "pear-pear.horde.org/horde_role": "1.*"
-            },
-            "type": "library",
+            "type": "horde-library",
             "autoload": {
                 "psr-0": {
                     "Horde_Role": "lib/"
@@ -2415,13 +2494,13 @@
             ],
             "authors": [
                 {
-                    "name": "Michael Slusarz",
-                    "email": "slusarz@horde.org",
+                    "name": "Jan Schneider",
+                    "email": "jan@horde.org",
                     "role": "lead"
                 },
                 {
-                    "name": "Jan Schneider",
-                    "email": "jan@horde.org",
+                    "name": "Michael Slusarz",
+                    "email": "slusarz@horde.org",
                     "role": "lead"
                 }
             ],
@@ -2430,7 +2509,7 @@
             "support": {
                 "source": "https://github.com/maintaina-com/Role/tree/master"
             },
-            "time": "2017-11-13T17:17:16+00:00"
+            "time": "2019-05-02T17:56:06+00:00"
         },
         {
             "name": "horde/rpc",
@@ -2438,33 +2517,34 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Rpc.git",
-                "reference": "1d346a982a9c1473a2a8feb822fd334976c32e28"
+                "reference": "03c4bf0899a6d17a03e757a4c2d9600a17840701"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/1d346a982a9c1473a2a8feb822fd334976c32e28",
-                "reference": "1d346a982a9c1473a2a8feb822fd334976c32e28",
+                "url": "https://api.github.com/repos/maintaina-com/Rpc/zipball/03c4bf0899a6d17a03e757a4c2d9600a17840701",
+                "reference": "03c4bf0899a6d17a03e757a4c2d9600a17840701",
                 "shasum": ""
             },
             "require": {
-                "horde/core": "*",
-                "horde/dav": "*",
-                "horde/exception": "*",
-                "horde/perms": "*",
-                "horde/serialize": "*",
-                "horde/support": "*",
-                "horde/translation": "*",
-                "horde/util": "*",
-                "horde/xml_element": "*",
-                "php": "*"
+                "horde/core": "dev-master",
+                "horde/dav": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/perms": "dev-master",
+                "horde/serialize": "dev-master",
+                "horde/support": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/util": "dev-master",
+                "horde/xml_element": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-soap": "*",
                 "ext-xmlrpc": "*",
-                "horde/ActiveSync": "^2",
-                "horde/Http": "^2",
-                "horde/Lock": "^2",
-                "horde/SyncMl": "^2"
+                "horde/activesync": "^2",
+                "horde/http": "^2",
+                "horde/lock": "^2",
+                "horde/syncml": "^2"
             },
             "type": "horde-library",
             "autoload": {
@@ -2493,11 +2573,11 @@
                 }
             ],
             "description": "RPC library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Rpc",
             "support": {
                 "source": "https://github.com/maintaina-com/Rpc/tree/master"
             },
-            "time": "2019-02-07T15:23:55+00:00"
+            "time": "2019-05-02T17:56:21+00:00"
         },
         {
             "name": "horde/secret",
@@ -2505,23 +2585,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Secret.git",
-                "reference": "301624765f19bf8452faec8f4ea1ed974c8c8d80"
+                "reference": "4161368057614f3d3eb60615ace17aafa02b33cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Secret/zipball/301624765f19bf8452faec8f4ea1ed974c8c8d80",
-                "reference": "301624765f19bf8452faec8f4ea1ed974c8c8d80",
+                "url": "https://api.github.com/repos/maintaina-com/Secret/zipball/4161368057614f3d3eb60615ace17aafa02b33cb",
+                "reference": "4161368057614f3d3eb60615ace17aafa02b33cb",
                 "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
-                "horde/crypt_blowfish": "^1",
-                "horde/exception": "^2",
-                "horde/support": "^2",
+                "horde/crypt_blowfish": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2545,11 +2626,11 @@
                 }
             ],
             "description": "Secret key encryption library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Secret",
             "support": {
                 "source": "https://github.com/maintaina-com/Secret/tree/master"
             },
-            "time": "2019-02-07T10:31:53+00:00"
+            "time": "2019-05-02T17:56:32+00:00"
         },
         {
             "name": "horde/serialize",
@@ -2557,27 +2638,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Serialize.git",
-                "reference": "ce70d194a3326878736d57119b01874e8ba0a820"
+                "reference": "b75a91e94dffdb9bfb7bd0d6d07a75a21a45786f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Serialize/zipball/ce70d194a3326878736d57119b01874e8ba0a820",
-                "reference": "ce70d194a3326878736d57119b01874e8ba0a820",
+                "url": "https://api.github.com/repos/maintaina-com/Serialize/zipball/b75a91e94dffdb9bfb7bd0d6d07a75a21a45786f",
+                "reference": "b75a91e94dffdb9bfb7bd0d6d07a75a21a45786f",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-bz2": "*",
                 "ext-json": "*",
+                "ext-lzf": "^1.5.2",
                 "ext-wddx": "*",
                 "ext-zlib": "*",
-                "horde/Imap_Client": "^2",
-                "horde/Mime": "^2",
-                "horde/Test": "^2.1"
+                "horde/imap_client": "^2",
+                "horde/mime": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2606,11 +2689,11 @@
                 }
             ],
             "description": "Data serialization library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Serialize",
             "support": {
                 "source": "https://github.com/maintaina-com/Serialize/tree/master"
             },
-            "time": "2019-02-07T15:43:40+00:00"
+            "time": "2019-05-02T17:56:40+00:00"
         },
         {
             "name": "horde/sessionhandler",
@@ -2618,25 +2701,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/SessionHandler.git",
-                "reference": "45ec38166f6809bbf9f594beaf75f948e59037eb"
+                "reference": "6416fa1e882458864d84cdc8f6da85a306363876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/45ec38166f6809bbf9f594beaf75f948e59037eb",
-                "reference": "45ec38166f6809bbf9f594beaf75f948e59037eb",
+                "url": "https://api.github.com/repos/maintaina-com/SessionHandler/zipball/6416fa1e882458864d84cdc8f6da85a306363876",
+                "reference": "6416fa1e882458864d84cdc8f6da85a306363876",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Db": "^2.2",
-                "horde/HashTable": "^1.1",
-                "horde/Log": "^2",
-                "horde/Mongo": "^1",
-                "horde/Test": "^2.1"
+                "horde/db": "^2.2",
+                "horde/hashtable": "^1.1",
+                "horde/log": "^2",
+                "horde/mongo": "^1",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2665,11 +2749,11 @@
                 }
             ],
             "description": "Session handler library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_SessionHandler",
             "support": {
                 "source": "https://github.com/maintaina-com/SessionHandler/tree/master"
             },
-            "time": "2019-02-07T10:39:41+00:00"
+            "time": "2019-05-02T17:56:55+00:00"
         },
         {
             "name": "horde/share",
@@ -2677,28 +2761,29 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Share.git",
-                "reference": "2848acacf7717d4668d9cf589892578bac0886f4"
+                "reference": "d9e43ae5bbf2069e7da46da3265abd94cc8a1515"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Share/zipball/2848acacf7717d4668d9cf589892578bac0886f4",
-                "reference": "2848acacf7717d4668d9cf589892578bac0886f4",
+                "url": "https://api.github.com/repos/maintaina-com/Share/zipball/d9e43ae5bbf2069e7da46da3265abd94cc8a1515",
+                "reference": "d9e43ae5bbf2069e7da46da3265abd94cc8a1515",
                 "shasum": ""
             },
             "require": {
-                "horde/db": "^2",
-                "horde/exception": "^2",
-                "horde/group": "^2",
-                "horde/perms": "^2.1",
-                "horde/support": "^2",
-                "horde/translation": "^2.2",
-                "horde/url": "^2",
-                "horde/util": "^2",
+                "horde/db": "dev-master",
+                "horde/exception": "dev-master",
+                "horde/group": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/perms": "dev-master",
+                "horde/support": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/url": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Kolab_Storage": "^2",
-                "horde/Test": "^2.1"
+                "horde/kolab_storage": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2727,11 +2812,11 @@
                 }
             ],
             "description": "Resource sharing library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Share",
             "support": {
                 "source": "https://github.com/maintaina-com/Share/tree/master"
             },
-            "time": "2019-02-07T11:12:45+00:00"
+            "time": "2019-05-02T17:57:06+00:00"
         },
         {
             "name": "horde/stream",
@@ -2739,22 +2824,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Stream.git",
-                "reference": "415e4b0a03c6e5352df8a27e6315fde46d12dc01"
+                "reference": "44aeef14e0db2975c2a16c627f09452af6948d89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/415e4b0a03c6e5352df8a27e6315fde46d12dc01",
-                "reference": "415e4b0a03c6e5352df8a27e6315fde46d12dc01",
+                "url": "https://api.github.com/repos/maintaina-com/Stream/zipball/44aeef14e0db2975c2a16c627f09452af6948d89",
+                "reference": "44aeef14e0db2975c2a16c627f09452af6948d89",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Stream_Wrapper": "^2.1",
-                "horde/Test": "^2.1",
-                "horde/Util": "^2"
+                "horde/stream_wrapper": "^2.1",
+                "horde/test": "^2.1",
+                "horde/util": "^2"
             },
             "type": "horde-library",
             "autoload": {
@@ -2773,33 +2859,39 @@
                 }
             ],
             "description": "PHP streams library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Stream",
             "support": {
                 "source": "https://github.com/maintaina-com/Stream/tree/master"
             },
-            "time": "2019-02-07T12:10:11+00:00"
+            "time": "2019-05-02T17:57:17+00:00"
         },
         {
             "name": "horde/stream_filter",
-            "version": "2.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Stream_Filter.git",
-                "reference": "897f58fde22d4ed8ceb07713a4c80a7c2153a859"
+                "reference": "1ca8aba4b1b02d9fef9d80b3cc68251e9184bfa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/897f58fde22d4ed8ceb07713a4c80a7c2153a859",
-                "reference": "897f58fde22d4ed8ceb07713a4c80a7c2153a859",
+                "url": "https://api.github.com/repos/maintaina-com/Stream_Filter/zipball/1ca8aba4b1b02d9fef9d80b3cc68251e9184bfa4",
+                "reference": "1ca8aba4b1b02d9fef9d80b3cc68251e9184bfa4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0,<=8.0.0alpha1"
+                "horde/horde-installer-plugin": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Stream_Filter": "lib/"
+                }
+            },
             "license": [
                 "LGPL-2.1"
             ],
@@ -2815,12 +2907,12 @@
                     "role": "lead"
                 }
             ],
-            "description": "Horde Stream filters",
-            "homepage": "http://pear.horde.org",
+            "description": "PHP stream filters library",
+            "homepage": "https://www.horde.org/libraries/Horde_Stream_Filter",
             "support": {
-                "source": "https://github.com/maintaina-com/Stream_Filter/tree/v2.0.4"
+                "source": "https://github.com/maintaina-com/Stream_Filter/tree/master"
             },
-            "time": "2016-02-02T00:00:00+00:00"
+            "time": "2019-05-02T17:57:25+00:00"
         },
         {
             "name": "horde/stream_wrapper",
@@ -2828,15 +2920,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Stream_Wrapper.git",
-                "reference": "04e3a513fa4d8b2d345feb6a19114bb3738c84d2"
+                "reference": "7c3b5a56d63a2f7b4b796857dca78cefb9277cdc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/04e3a513fa4d8b2d345feb6a19114bb3738c84d2",
-                "reference": "04e3a513fa4d8b2d345feb6a19114bb3738c84d2",
+                "url": "https://api.github.com/repos/maintaina-com/Stream_Wrapper/zipball/7c3b5a56d63a2f7b4b796857dca78cefb9277cdc",
+                "reference": "7c3b5a56d63a2f7b4b796857dca78cefb9277cdc",
                 "shasum": ""
             },
             "require": {
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "type": "horde-library",
@@ -2861,11 +2954,11 @@
                 }
             ],
             "description": "PHP stream wrappers library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Stream_Wrapper",
             "support": {
                 "source": "https://github.com/maintaina-com/Stream_Wrapper/tree/master"
             },
-            "time": "2019-02-07T12:11:12+00:00"
+            "time": "2019-05-02T17:57:33+00:00"
         },
         {
             "name": "horde/support",
@@ -2873,22 +2966,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Support.git",
-                "reference": "1aa527cede83f5cb7c6d89e0a0f2949e73251f02"
+                "reference": "99948075568e02d34a6d3cccf33790cfe0e75591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Support/zipball/1aa527cede83f5cb7c6d89e0a0f2949e73251f02",
-                "reference": "1aa527cede83f5cb7c6d89e0a0f2949e73251f02",
+                "url": "https://api.github.com/repos/maintaina-com/Support/zipball/99948075568e02d34a6d3cccf33790cfe0e75591",
+                "reference": "99948075568e02d34a6d3cccf33790cfe0e75591",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/stream_wrapper": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/stream_wrapper": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -2917,33 +3011,39 @@
                 }
             ],
             "description": "Supporting library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Support",
             "support": {
                 "source": "https://github.com/maintaina-com/Support/tree/master"
             },
-            "time": "2019-02-06T12:45:53+00:00"
+            "time": "2019-05-02T17:57:41+00:00"
         },
         {
             "name": "horde/template",
-            "version": "2.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Template.git",
-                "reference": "b2126e82d62bcc1496290c098d3ea375aae80650"
+                "reference": "8d417d324d22743c8578e12c187bb49fa4a39198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Template/zipball/b2126e82d62bcc1496290c098d3ea375aae80650",
-                "reference": "b2126e82d62bcc1496290c098d3ea375aae80650",
+                "url": "https://api.github.com/repos/maintaina-com/Template/zipball/8d417d324d22743c8578e12c187bb49fa4a39198",
+                "reference": "8d417d324d22743c8578e12c187bb49fa4a39198",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0,<=8.0.0alpha1"
+                "horde/horde-installer-plugin": "dev-master",
+                "php": "^5.3 || ^7"
             },
             "suggest": {
-                "pear-pear.horde.org/Horde_Test": ">=2.1.0@stable,<=3.0.0alpha1@stable"
+                "horde/test": "^2.1"
             },
-            "type": "library",
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Template": "lib/"
+                }
+            },
             "license": [
                 "LGPL-2.1"
             ],
@@ -2959,12 +3059,66 @@
                     "role": "lead"
                 }
             ],
-            "description": "Horde Template System",
-            "homepage": "http://pear.horde.org",
+            "description": "Template library (deprecated)",
+            "homepage": "https://www.horde.org/libraries/Horde_Template",
             "support": {
-                "source": "https://github.com/maintaina-com/Template/tree/v2.0.3"
+                "source": "https://github.com/maintaina-com/Template/tree/master"
             },
-            "time": "2016-02-02T00:00:00+00:00"
+            "time": "2019-05-02T17:57:49+00:00"
+        },
+        {
+            "name": "horde/test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maintaina-com/Test.git",
+                "reference": "a0cbd6b23d9c31d2a5ff61595e8c0509bd330d5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maintaina-com/Test/zipball/a0cbd6b23d9c31d2a5ff61595e8c0509bd330d5a",
+                "reference": "a0cbd6b23d9c31d2a5ff61595e8c0509bd330d5a",
+                "shasum": ""
+            },
+            "require": {
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
+                "horde/util": "dev-master",
+                "php": "^5.3.3 || ^7"
+            },
+            "suggest": {
+                "ext-dom": "*",
+                "ext-json": "*",
+                "horde/cli": "^2",
+                "horde/log": "^2"
+            },
+            "type": "horde-library",
+            "autoload": {
+                "psr-0": {
+                    "Horde_Test": "lib/"
+                }
+            },
+            "license": [
+                "LGPL-2.1"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Schneider",
+                    "email": "jan@horde.org",
+                    "role": "lead"
+                },
+                {
+                    "name": "Chuck Hagenbuch",
+                    "email": "chuck@horde.org",
+                    "role": "lead"
+                }
+            ],
+            "description": "Unit testing library",
+            "homepage": "https://www.horde.org/libraries/Horde_Test",
+            "support": {
+                "source": "https://github.com/maintaina-com/Test/tree/master"
+            },
+            "time": "2019-05-02T17:57:57+00:00"
         },
         {
             "name": "horde/text_diff",
@@ -2972,23 +3126,24 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Text_Diff.git",
-                "reference": "9f890597da2323c14592b0af3647d6a8c195f6b9"
+                "reference": "048cc711de03a112e512d26f078beb823693e68f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/9f890597da2323c14592b0af3647d6a8c195f6b9",
-                "reference": "9f890597da2323c14592b0af3647d6a8c195f6b9",
+                "url": "https://api.github.com/repos/maintaina-com/Text_Diff/zipball/048cc711de03a112e512d26f078beb823693e68f",
+                "reference": "048cc711de03a112e512d26f078beb823693e68f",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-xdiff": "*",
-                "horde/Cli": "^2.1",
-                "horde/Test": "^2.1"
+                "horde/cli": "^2.1",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3012,11 +3167,11 @@
                 }
             ],
             "description": "Text diff generation and rendering library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Text_Diff",
             "support": {
                 "source": "https://github.com/maintaina-com/Text_Diff/tree/master"
             },
-            "time": "2019-02-07T17:33:06+00:00"
+            "time": "2019-05-02T17:58:06+00:00"
         },
         {
             "name": "horde/text_filter",
@@ -3024,26 +3179,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Text_Filter.git",
-                "reference": "42aeeee16ff1102bc6867a4a2ea16e29672f7349"
+                "reference": "a5bdc8c263d278b326695dbe316ba86b0835cc30"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/42aeeee16ff1102bc6867a4a2ea16e29672f7349",
-                "reference": "42aeeee16ff1102bc6867a4a2ea16e29672f7349",
+                "url": "https://api.github.com/repos/maintaina-com/Text_Filter/zipball/a5bdc8c263d278b326695dbe316ba86b0835cc30",
+                "reference": "a5bdc8c263d278b326695dbe316ba86b0835cc30",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/idna": "^1",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/idna": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-tidy": "*",
-                "horde/Test": "^2.1",
-                "horde/Text_Filter_Jsmin": "^1",
-                "horde/Text_Flowed": "^2",
-                "horde/Translation": "^2.2"
+                "horde/test": "^2.1",
+                "horde/text_filter_jsmin": "^1",
+                "horde/text_flowed": "^2",
+                "horde/translation": "^2.2"
             },
             "type": "horde-library",
             "autoload": {
@@ -3072,11 +3228,11 @@
                 }
             ],
             "description": "Text filtering and conversion library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Text_Filter",
             "support": {
                 "source": "https://github.com/maintaina-com/Text_Filter/tree/master"
             },
-            "time": "2019-02-06T13:03:30+00:00"
+            "time": "2019-05-02T17:58:14+00:00"
         },
         {
             "name": "horde/text_flowed",
@@ -3084,20 +3240,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Text_Flowed.git",
-                "reference": "eb87150d30866ce33c325cf76c89d409ce4cf3ba"
+                "reference": "1f98c2911d0b194859aa02d35b9032a5bed8bff9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/eb87150d30866ce33c325cf76c89d409ce4cf3ba",
-                "reference": "eb87150d30866ce33c325cf76c89d409ce4cf3ba",
+                "url": "https://api.github.com/repos/maintaina-com/Text_Flowed/zipball/1f98c2911d0b194859aa02d35b9032a5bed8bff9",
+                "reference": "1f98c2911d0b194859aa02d35b9032a5bed8bff9",
                 "shasum": ""
             },
             "require": {
-                "horde/util": "^2",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3116,11 +3273,11 @@
                 }
             ],
             "description": "Flowed text library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Text_Flowed",
             "support": {
                 "source": "https://github.com/maintaina-com/Text_Flowed/tree/master"
             },
-            "time": "2019-02-06T13:05:47+00:00"
+            "time": "2019-05-02T17:58:30+00:00"
         },
         {
             "name": "horde/token",
@@ -3128,26 +3285,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Token.git",
-                "reference": "5add22cbb0dcd14b165c4fce71b1fa90d553555f"
+                "reference": "70a2a2a522aa9eedba27ab6e7e15ae7974dac3be"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Token/zipball/5add22cbb0dcd14b165c4fce71b1fa90d553555f",
-                "reference": "5add22cbb0dcd14b165c4fce71b1fa90d553555f",
+                "url": "https://api.github.com/repos/maintaina-com/Token/zipball/70a2a2a522aa9eedba27ab6e7e15ae7974dac3be",
+                "reference": "70a2a2a522aa9eedba27ab6e7e15ae7974dac3be",
                 "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
-                "horde/exception": "^2",
-                "horde/translation": "^2.2",
-                "horde/url": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/translation": "dev-master",
+                "horde/url": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Db": "^2",
-                "horde/Mongo": "^1",
-                "horde/Test": "^2.1"
+                "horde/db": "^2",
+                "horde/mongo": "^1",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3171,11 +3329,11 @@
                 }
             ],
             "description": "Tokens library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Token",
             "support": {
                 "source": "https://github.com/maintaina-com/Token/tree/master"
             },
-            "time": "2019-02-06T12:57:12+00:00"
+            "time": "2019-05-02T17:58:38+00:00"
         },
         {
             "name": "horde/translation",
@@ -3183,21 +3341,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Translation.git",
-                "reference": "b00e1c625ff0cc4cfd6d117903ad27c5f3d4bfd5"
+                "reference": "16edf3e6a7d9e2c4db4f3e0a592e2fa920c0a30d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/b00e1c625ff0cc4cfd6d117903ad27c5f3d4bfd5",
-                "reference": "b00e1c625ff0cc4cfd6d117903ad27c5f3d4bfd5",
+                "url": "https://api.github.com/repos/maintaina-com/Translation/zipball/16edf3e6a7d9e2c4db4f3e0a592e2fa920c0a30d",
+                "reference": "16edf3e6a7d9e2c4db4f3e0a592e2fa920c0a30d",
                 "shasum": ""
             },
             "require": {
-                "horde/horde-installer-plugin": "*",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-gettext": "*",
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3216,11 +3374,11 @@
                 }
             ],
             "description": "Translation library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Translation",
             "support": {
                 "source": "https://github.com/maintaina-com/Translation/tree/master"
             },
-            "time": "2019-02-13T06:23:51+00:00"
+            "time": "2019-05-02T17:58:46+00:00"
         },
         {
             "name": "horde/url",
@@ -3228,20 +3386,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Url.git",
-                "reference": "e29ce2bd236f3b95c2807ee6edf2b6f557be88dc"
+                "reference": "703a6d521188bfafc1aec4d23532a6bd938da649"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Url/zipball/e29ce2bd236f3b95c2807ee6edf2b6f557be88dc",
-                "reference": "e29ce2bd236f3b95c2807ee6edf2b6f557be88dc",
+                "url": "https://api.github.com/repos/maintaina-com/Url/zipball/703a6d521188bfafc1aec4d23532a6bd938da649",
+                "reference": "703a6d521188bfafc1aec4d23532a6bd938da649",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3265,11 +3424,11 @@
                 }
             ],
             "description": "URL library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Url",
             "support": {
                 "source": "https://github.com/maintaina-com/Url/tree/master"
             },
-            "time": "2019-02-06T13:15:57+00:00"
+            "time": "2019-05-02T17:59:01+00:00"
         },
         {
             "name": "horde/util",
@@ -3277,17 +3436,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Util.git",
-                "reference": "1515ca1fd779ddfd2dc46f03751b9bf88ddd4752"
+                "reference": "b8353c44176848ad95b8f4b61c83f26d7f04339d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Util/zipball/1515ca1fd779ddfd2dc46f03751b9bf88ddd4752",
-                "reference": "1515ca1fd779ddfd2dc46f03751b9bf88ddd4752",
+                "url": "https://api.github.com/repos/maintaina-com/Util/zipball/b8353c44176848ad95b8f4b61c83f26d7f04339d",
+                "reference": "b8353c44176848ad95b8f4b61c83f26d7f04339d",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "horde/horde-installer-plugin": "*",
+                "horde/horde-installer-plugin": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
@@ -3328,11 +3487,11 @@
                 }
             ],
             "description": "Utility library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Util",
             "support": {
                 "source": "https://github.com/maintaina-com/Util/tree/master"
             },
-            "time": "2019-02-14T17:12:02+00:00"
+            "time": "2019-05-02T17:59:08+00:00"
         },
         {
             "name": "horde/view",
@@ -3340,25 +3499,26 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/View.git",
-                "reference": "7371bf06c153fe9f1b0b49e41cb680028738d44f"
+                "reference": "ffc03cfb83d15b9d92335d79bf5ab06143fc0189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/View/zipball/7371bf06c153fe9f1b0b49e41cb680028738d44f",
-                "reference": "7371bf06c153fe9f1b0b49e41cb680028738d44f",
+                "url": "https://api.github.com/repos/maintaina-com/View/zipball/ffc03cfb83d15b9d92335d79bf5ab06143fc0189",
+                "reference": "ffc03cfb83d15b9d92335d79bf5ab06143fc0189",
                 "shasum": ""
             },
             "require": {
-                "horde/exception": "^2",
-                "horde/support": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/support": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
                 "ext-json": "*",
-                "horde/Controller": "^2",
-                "horde/Routes": "^2",
-                "horde/Test": "^2.1"
+                "horde/controller": "^2",
+                "horde/routes": "^2",
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3382,11 +3542,11 @@
                 }
             ],
             "description": "View pattern library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_View",
             "support": {
                 "source": "https://github.com/maintaina-com/View/tree/master"
             },
-            "time": "2019-02-06T13:26:31+00:00"
+            "time": "2019-05-02T17:59:28+00:00"
         },
         {
             "name": "horde/xml_element",
@@ -3394,22 +3554,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Xml_Element.git",
-                "reference": "2d03328d0b8aed421d71c247d778d59472ee9221"
+                "reference": "3ce5a9aa8baa6768e3b5370deb08046f41625882"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/2d03328d0b8aed421d71c247d778d59472ee9221",
-                "reference": "2d03328d0b8aed421d71c247d778d59472ee9221",
+                "url": "https://api.github.com/repos/maintaina-com/Xml_Element/zipball/3ce5a9aa8baa6768e3b5370deb08046f41625882",
+                "reference": "3ce5a9aa8baa6768e3b5370deb08046f41625882",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3428,11 +3589,11 @@
                 }
             ],
             "description": "XML element library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Xml_Element",
             "support": {
                 "source": "https://github.com/maintaina-com/Xml_Element/tree/master"
             },
-            "time": "2019-02-07T14:26:45+00:00"
+            "time": "2019-05-02T17:59:43+00:00"
         },
         {
             "name": "horde/yaml",
@@ -3440,22 +3601,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maintaina-com/Yaml.git",
-                "reference": "9ead145fd75101a71f11a6e13e01d79d225feec2"
+                "reference": "b746bced3b2b53936ab2e674eda2b811be0e2179"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maintaina-com/Yaml/zipball/9ead145fd75101a71f11a6e13e01d79d225feec2",
-                "reference": "9ead145fd75101a71f11a6e13e01d79d225feec2",
+                "url": "https://api.github.com/repos/maintaina-com/Yaml/zipball/b746bced3b2b53936ab2e674eda2b811be0e2179",
+                "reference": "b746bced3b2b53936ab2e674eda2b811be0e2179",
                 "shasum": ""
             },
             "require": {
                 "ext-ctype": "*",
-                "horde/exception": "^2",
-                "horde/util": "^2",
+                "horde/exception": "dev-master",
+                "horde/horde-installer-plugin": "dev-master",
+                "horde/util": "dev-master",
                 "php": "^5.3 || ^7"
             },
             "suggest": {
-                "horde/Test": "^2.1"
+                "horde/test": "^2.1"
             },
             "type": "horde-library",
             "autoload": {
@@ -3479,11 +3641,11 @@
                 }
             ],
             "description": "YAML parsing and writing library",
-            "homepage": "https://www.horde.org",
+            "homepage": "https://www.horde.org/libraries/Horde_Yaml",
             "support": {
                 "source": "https://github.com/maintaina-com/Yaml/tree/master"
             },
-            "time": "2019-02-06T13:13:30+00:00"
+            "time": "2019-05-02T18:00:00+00:00"
         },
         {
             "name": "pear-pear.php.net/Archive_Tar",
@@ -3930,129 +4092,6 @@
             "description": "Methods to work with XML documents",
             "homepage": "http://pear.php.net/package/XML_Util",
             "time": "2017-06-28T19:21:19+00:00"
-        },
-        {
-            "name": "sabre/dav",
-            "version": "1.8.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sabre-io/dav.git",
-                "reference": "6a7b4ad4433faca5a5dae754f8d0828c9da59dd9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/dav/zipball/6a7b4ad4433faca5a5dae754f8d0828c9da59dd9",
-                "reference": "6a7b4ad4433faca5a5dae754f8d0828c9da59dd9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-ctype": "*",
-                "ext-date": "*",
-                "ext-dom": "*",
-                "ext-iconv": "*",
-                "ext-libxml": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-simplexml": "*",
-                "ext-spl": "*",
-                "php": ">=5.3.1",
-                "sabre/vobject": "~2.1.0"
-            },
-            "provide": {
-                "evert/sabredav": "1.7.*"
-            },
-            "require-dev": {
-                "evert/phpdoc-md": "~0.0.7",
-                "phpunit/phpunit": "~4.0.0"
-            },
-            "suggest": {
-                "ext-apc": "*",
-                "ext-curl": "*",
-                "ext-pdo": "*"
-            },
-            "bin": [
-                "bin/sabredav"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Sabre\\DAV": "lib/",
-                    "Sabre\\HTTP": "lib/",
-                    "Sabre\\DAVACL": "lib/",
-                    "Sabre\\CalDAV": "lib/",
-                    "Sabre\\CardDAV": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "me@evertpot.com",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "WebDAV Framework for PHP",
-            "homepage": "http://code.google.com/p/sabredav/",
-            "keywords": [
-                "CalDAV",
-                "CardDAV",
-                "WebDAV",
-                "framework",
-                "iCalendar"
-            ],
-            "time": "2015-04-10T17:48:31+00:00"
-        },
-        {
-            "name": "sabre/vobject",
-            "version": "2.1.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sabre-io/vobject.git",
-                "reference": "c3ebe643fd1037b656ebcc149e3fd3d38938fe58"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sabre-io/vobject/zipball/c3ebe643fd1037b656ebcc149e3fd3d38938fe58",
-                "reference": "c3ebe643fd1037b656ebcc149e3fd3d38938fe58",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mbstring": "*",
-                "php": ">=5.3.1"
-            },
-            "bin": [
-                "bin/vobjectvalidate.php"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Sabre\\VObject": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Evert Pot",
-                    "email": "evert@rooftopsolutions.nl",
-                    "homepage": "http://evertpot.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The VObject library for PHP allows you to easily parse and manipulate iCalendar and vCard objects",
-            "homepage": "http://sabre.io/vobject/",
-            "keywords": [
-                "VObject",
-                "iCalendar",
-                "vCard"
-            ],
-            "time": "2015-01-21T20:57:59+00:00"
         }
     ],
     "packages-dev": [],
@@ -4430,6 +4469,7 @@
         "horde/stream_wrapper": 20,
         "horde/share": 20,
         "horde/support": 20,
+        "horde/test": 20,
         "horde/text_diff": 20,
         "horde/text_filter": 20,
         "horde/text_flowed": 20,
