@@ -1,0 +1,97 @@
+<?php
+/**
+ * Default configuration for downstream developers and testers.
+ */
+
+/*******************************************/
+/* The following items MUST be configured. */
+/*******************************************/
+
+// Target directory for git checkouts.
+$conf['git_base'] = '/srv/git/horde-maintaina.com/';
+
+// Target directory for installation, i.e. the webroot .
+$conf['web_base'] = './temp/web_base';
+
+// Group name to use for the static directory. Should be the web server's
+// group.
+$conf['static_group'] = 'www';
+
+
+/************************************************************/
+/* The following items are optional and have sane defaults. */
+/************************************************************/
+
+/* GLOBAL configuration */
+
+// Be verbose?
+$conf['verbose'] = false;
+
+
+/* Git related configuration */
+
+// Github organization to use for repositories
+$conf['org'] = 'maintaina-com';
+
+// To use a "developer" checkout, use the 'git@github.com:' URI.
+// Otherwise, an anonymous clone will be done that cannot be pushed.
+$conf['git_ssh'] = 'git@github.com:';
+
+// Additional git remote "upstream"
+// This is useful for maintaining downstream forks
+$conf['git_upstream_org'] = 'horde';
+
+// Add repo type hints for horde packages.
+$conf['repo-type'] = 'vcs';
+
+// Ignore the following repositories. Mostly used to avoid cloning of the
+// legacy monolithic repository.
+$conf['ignore'] = array();
+
+// Additional arguments for the git clone command. By default uses a less
+// resources consuming "shallow" copy. If you need the full commit history,
+// remove the --depth parameter.
+$conf['clone'] = '--depth 100';
+
+// If true, use the 'get' alias recommended by
+// https://www.horde.org/development/git#updating-repository
+$conf['use_git_get'] = false;
+
+// If setting use_git_get to true, you probably want the alias to be
+// automatically created in each repository that is cloned.
+$conf['add_get_alias'] = true;
+
+// Set to true to cache the results of GitHub API calls. E.g., when requesting
+// a list of available repositories and their properties. Without this,
+// frequent calls could blacklist the client IP for 15 minutes.
+$conf['cache'] = false;
+
+
+/* Installation related configuration. */
+
+// List of applications to create symlinks for. Empty array will link all.
+$conf['apps'] = array();
+
+// Group mode to use for the static directory.
+$conf['static_mode'] = 0775;
+
+// Set to true to copy the structure instead of linking.
+$conf['copy'] = false;
+
+// Repo types to add to composer definition.
+// Use 'vcs' for individual per-module hints based on $conf['org'];
+// TODO: Use 'satis:url' for a private packagist-style repo.
+// Use false or remove key for default (no repo hint, search packagist)
+$conf['composer_repo'] = 'satis:https://horde-satis.maintaina.com';
+
+// Set to "dev-master" to force all requirements to development versions.
+// Useful for unit testing and developer setups
+// Remove or leave empty for proper version handling
+$conf['composer_version'] = 'dev-master';
+
+/* Well known composer native substitutes for pear dependencies */
+$conf['composer_opts']['pear-substitutes']['pear.php.net/Archive_Tar'] = array('source' => 'Packagist', 'name' => 'pear/archive_tar');
+$conf['composer_opts']['pear-substitutes']['pear.php.net/PHP_CodeSniffer'] = array('source' => 'Packagist', 'name' => 'squizlabs/php_codesniffer');
+$conf['composer_opts']['pear-substitutes']['pear.phpunit.de/phpcpd'] = array('source' => 'Packagist', 'name' => 'sebastian/phpcpd');
+$conf['composer_opts']['pear-substitutes']['pear.phpunit.de/phpdcd'] = array('source' => 'Packagist', 'name' => 'sebastian/phpdcd');
+$conf['composer_opts']['pear-substitutes']['pear.phpunit.de/phploc'] = array('source' => 'Packagist', 'name' => 'phploc/phploc');
