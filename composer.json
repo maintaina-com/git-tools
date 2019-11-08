@@ -33,111 +33,111 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Alarm"
+            "url": "https://github.com/maintaina-com/alarm"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Autoloader"
+            "url": "https://github.com/maintaina-com/autoloader"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Auth"
+            "url": "https://github.com/maintaina-com/auth"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Argv"
+            "url": "https://github.com/maintaina-com/argv"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Browser"
+            "url": "https://github.com/maintaina-com/browser"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Cache"
+            "url": "https://github.com/maintaina-com/cache"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Compress"
+            "url": "https://github.com/maintaina-com/compress"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Controller"
+            "url": "https://github.com/maintaina-com/controller"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/CssMinify"
+            "url": "https://github.com/maintaina-com/cssminify"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Css_Parser"
+            "url": "https://github.com/maintaina-com/css_parser"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Compress_Fast"
+            "url": "https://github.com/maintaina-com/compress_fast"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Core"
+            "url": "https://github.com/maintaina-com/core"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Constraint"
+            "url": "https://github.com/maintaina-com/constraint"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Crypt_Blowfish"
+            "url": "https://github.com/maintaina-com/crypt_blowfish"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Cli"
+            "url": "https://github.com/maintaina-com/cli"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Cli_Modular"
+            "url": "https://github.com/maintaina-com/cli_modular"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Dav"
+            "url": "https://github.com/maintaina-com/dav"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Data"
+            "url": "https://github.com/maintaina-com/data"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Date"
+            "url": "https://github.com/maintaina-com/date"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Db"
+            "url": "https://github.com/maintaina-com/db"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Exception"
+            "url": "https://github.com/maintaina-com/exception"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Group"
+            "url": "https://github.com/maintaina-com/group"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/HashTable"
+            "url": "https://github.com/maintaina-com/hashtable"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/History"
+            "url": "https://github.com/maintaina-com/history"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Http"
+            "url": "https://github.com/maintaina-com/http"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Icalendar"
+            "url": "https://github.com/maintaina-com/icalendar"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Idna"
+            "url": "https://github.com/maintaina-com/idna"
         },
         {
             "type": "vcs",
@@ -157,135 +157,139 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Mail"
+            "url": "https://github.com/maintaina-com/mail"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Mime"
+            "url": "https://github.com/maintaina-com/mime"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Mime_Viewer"
+            "url": "https://github.com/maintaina-com/mime_viewer"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Nls"
+            "url": "https://github.com/maintaina-com/nls"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Notification"
+            "url": "https://github.com/maintaina-com/notification"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/ListHeaders"
+            "url": "https://github.com/maintaina-com/listheaders"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Injector"
+            "url": "https://github.com/maintaina-com/injector"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Pack"
+            "url": "https://github.com/maintaina-com/pack"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Pear"
+            "url": "https://github.com/maintaina-com/pear"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Perms"
+            "url": "https://github.com/maintaina-com/perms"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Prefs"
+            "url": "https://github.com/maintaina-com/prefs"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Release"
+            "url": "https://github.com/maintaina-com/release"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Rpc"
+            "url": "https://github.com/maintaina-com/rpc"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Serialize"
+            "url": "https://github.com/maintaina-com/serialize"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Translation"
+            "url": "https://github.com/maintaina-com/translation"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Yaml"
+            "url": "https://github.com/maintaina-com/yaml"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Role"
+            "url": "https://github.com/maintaina-com/role"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Secret"
+            "url": "https://github.com/maintaina-com/secret"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/SessionHandler"
+            "url": "https://github.com/maintaina-com/sessionhandler"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Share"
+            "url": "https://github.com/maintaina-com/share"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Support"
+            "url": "https://github.com/maintaina-com/support"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Stream"
+            "url": "https://github.com/maintaina-com/stream"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Stream_Filter"
+            "url": "https://github.com/maintaina-com/stream_filter"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Stream_Wrapper"
+            "url": "https://github.com/maintaina-com/stream_wrapper"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Template"
+            "url": "https://github.com/maintaina-com/template"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Text_Diff"
+            "url": "https://github.com/maintaina-com/text_diff"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Text_Filter"
+            "url": "https://github.com/maintaina-com/text_filter"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Text_Flowed"
+            "url": "https://github.com/maintaina-com/text_flowed"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Token"
+            "url": "https://github.com/maintaina-com/token"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Util"
+            "url": "https://github.com/maintaina-com/util"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Url"
+            "url": "https://github.com/maintaina-com/url"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/View"
+            "url": "https://github.com/maintaina-com/view"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/maintaina-com/Xml_Element"
+            "url": "https://github.com/maintaina-com/test"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/maintaina-com/xml_element"
         },
         {
             "type": "vcs",
@@ -355,7 +359,9 @@
         "horde/yaml": "dev-master as 2.99.99",
         "horde/components": "dev-master",
         "pear/Archive_Tar": "^1.4.2",
-        "pear/PEAR": "^1.10.0@dev"
+        "pear/PEAR": "^1.10.0@dev",
+        "phpunit/phpunit": "^8.5@dev",
+        "horde/test": "dev-master"
     },
     "autoload": {
         "psr-4": {"Horde\\GitTools\\": "lib"}
