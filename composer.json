@@ -20,348 +20,74 @@
     "time": "2019-04-12",
     "repositories": [
         {
-            "type": "pear",
-            "url": "https://pear.php.net"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/horde-installer-plugin"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/components"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/alarm"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/autoloader"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/auth"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/argv"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/browser"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/cache"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/compress"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/controller"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/cssminify"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/css_parser"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/compress_fast"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/core"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/constraint"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/crypt_blowfish"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/cli"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/cli_modular"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/dav"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/data"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/date"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/db"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/exception"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/group"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/hashtable"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/history"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/http"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/icalendar"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/idna"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/javascriptminify"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/log"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/logintasks"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/lock"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/mail"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/mime"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/mime_viewer"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/nls"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/notification"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/listheaders"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/injector"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/pack"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/pear"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/perms"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/prefs"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/release"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/rpc"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/serialize"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/translation"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/yaml"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/role"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/secret"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/sessionhandler"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/share"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/support"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/stream"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/stream_filter"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/stream_wrapper"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/template"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/text_diff"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/text_filter"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/text_flowed"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/token"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/util"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/url"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/view"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/test"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/xml_element"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/maintaina-com/components"
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com"
         }
     ],
     "minimum-stability": "dev",
-    "prefer-stable": false,
+    "prefer-stable": true,
     "require": {
         "php": ">=7.0.0",
         "composer-plugin-api": "^1.0",
-        "horde/horde-installer-plugin": "dev-master",
-        "horde/alarm": "dev-master as 2.99.99",
-        "horde/auth": "dev-master as 2.99.99",
-        "horde/browser": "dev-master as 2.99.99",
-        "horde/argv": "dev-master as 2.99.99",
-        "horde/cache": "dev-master as 2.99.99",
-        "horde/compress": "dev-master as 2.99.99",
-        "horde/compress_fast": "dev-master as 1.99.99",
-        "horde/controller": "dev-master as 2.99.99",
-        "horde/core": "dev-master as 2.99.99",
-        "horde/cli": "dev-master as 2.99.99",
-        "horde/cli_modular": "dev-master as 2.99.99",
-        "horde/cssminify": "dev-master as 1.99.99",
-        "horde/crypt_blowfish": "dev-master as 1.99.99",
-        "horde/data": "dev-master as 2.99.99",
-        "horde/date": "dev-master as 2.99.99",
-        "horde/db": "dev-master as 2.99.99",
-        "horde/exception": "dev-master as 2.99.99",
-        "horde/group": "dev-master as 2.99.99",
-        "horde/hashtable": "dev-master as 1.99.99",
-        "horde/history": "dev-master as 2.99.99",
+        "horde/horde-installer-plugin": "dev-FRAMEWORK_6_0",
+        "horde/alarm": "dev-FRAMEWORK_6_0",
+        "horde/auth": "dev-FRAMEWORK_6_0",
+        "horde/browser": "dev-FRAMEWORK_6_0",
+        "horde/argv": "dev-FRAMEWORK_6_0",
+        "horde/cache": "dev-FRAMEWORK_6_0"
+        "horde/compress": "dev-FRAMEWORK_6_0",
+        "horde/compress_fast": "dev-FRAMEWORK_6_0",
+        "horde/controller": "dev-FRAMEWORK_6_0",
+        "horde/core": "dev-FRAMEWORK_6_0",
+        "horde/cli": "dev-FRAMEWORK_6_0",
+        "horde/cli_modular": "dev-FRAMEWORK_6_0",
+        "horde/cssminify": "dev-FRAMEWORK_6_0",
+        "horde/crypt_blowfish": "dev-FRAMEWORK_6_0",
+        "horde/data": "dev-FRAMEWORK_6_0",
+        "horde/date": "dev-FRAMEWORK_6_0",
+        "horde/db": "dev-FRAMEWORK_6_0",
+        "horde/exception": "dev-FRAMEWORK_6_0",
+        "horde/group": "dev-FRAMEWORK_6_0",
+        "horde/hashtable": "dev-FRAMEWORK_6_0",
+        "horde/history": "dev-FRAMEWORK_6_0",
         "horde/http": "dev-master as 2.99.99",
-        "horde/icalendar": "dev-master as 2.99.99",
-        "horde/injector": "dev-master as 2.99.99",
-        "horde/idna": "dev-master as 1.99.99",
-        "horde/javascriptminify": "dev-master as 1.99.99",
-        "horde/log": "dev-master as 2.99.99",
-        "horde/logintasks": "dev-master as 2.99.99",
-        "horde/lock": "dev-master as 2.99.99",
-        "horde/mail": "dev-master as 2.99.99",
-        "horde/mime": "dev-master as 2.99.99",
-        "horde/mime_viewer": "dev-master as 2.99.99",
-        "horde/nls": "dev-master as 2.99.99",
-        "horde/notification": "dev-master as 2.99.99",
-        "horde/pear": "dev-master",
-        "horde/pack": "dev-master as 1.99.99",
-        "horde/perms": "dev-master as 2.99.99",
-        "horde/prefs": "dev-master as 2.99.99",
-        "horde/release": "dev-master as 3.99.99",
-        "horde/rpc": "dev-master as 2.99.99",
-        "horde/secret": "dev-master as 2.99.99",
-        "horde/serialize": "dev-master as 2.99.99",
-        "horde/sessionhandler": "dev-master as 2.99.99",
-        "horde/stream_wrapper": "dev-master as 2.99.99",
-        "horde/share": "dev-master as 2.99.99",
-        "horde/support": "dev-master as 2.99.99",
-        "horde/text_diff": "dev-master as 2.99.99",
-        "horde/text_filter": "dev-master as 2.99.99",
-        "horde/text_flowed": "dev-master as 2.99.99",
-        "horde/token": "dev-master as 2.99.99",
-        "horde/translation": "dev-master as 2.99.99",
-        "horde/url": "dev-master as 2.99.99",
-        "horde/util": "dev-master as 2.99.99",
-        "horde/view": "dev-master as 2.99.99",
-        "horde/xml_element": "dev-master as 2.99.99",
-        "horde/yaml": "dev-master as 2.99.99",
-        "horde/components": "dev-master",
-        "pear/Archive_Tar": "^1.4.2",
-        "pear/PEAR": "^1.10.0@dev",
-        "phpunit/phpunit": "^8.5@dev",
-        "horde/test": "dev-master"
+        "horde/icalendar": "dev-FRAMEWORK_6_0",
+        "horde/injector": "dev-FRAMEWORK_6_0",
+        "horde/idna": "dev-FRAMEWORK_6_0",
+        "horde/javascriptminify": "dev-FRAMEWORK_6_0",
+        "horde/log": "dev-FRAMEWORK_6_0",
+        "horde/logintasks": "dev-FRAMEWORK_6_0",
+        "horde/lock": "dev-FRAMEWORK_6_0",
+        "horde/mail": "dev-FRAMEWORK_6_0",
+        "horde/mime": "dev-FRAMEWORK_6_0",
+        "horde/mime_viewer": "dev-FRAMEWORK_6_0",
+        "horde/nls": "dev-FRAMEWORK_6_0",
+        "horde/notification": "dev-FRAMEWORK_6_0",
+        "horde/pear": "dev-FRAMEWORK_6_0",
+        "horde/pack": "dev-FRAMEWORK_6_0",
+        "horde/perms": "dev-FRAMEWORK_6_0",
+        "horde/prefs": "dev-FRAMEWORK_6_0",
+        "horde/release": "dev-FRAMEWORK_6_0",
+        "horde/rpc": "dev-FRAMEWORK_6_0",
+        "horde/secret": "dev-FRAMEWORK_6_0",
+        "horde/serialize": "dev-FRAMEWORK_6_0",
+        "horde/sessionhandler": "dev-FRAMEWORK_6_0",
+        "horde/stream_wrapper": "dev-FRAMEWORK_6_0",
+        "horde/share": "dev-FRAMEWORK_6_0",
+        "horde/support": "dev-FRAMEWORK_6_0",
+        "horde/text_diff": "dev-FRAMEWORK_6_0",
+        "horde/text_filter": "dev-FRAMEWORK_6_0",
+        "horde/text_flowed": "dev-FRAMEWORK_6_0",
+        "horde/token": "dev-FRAMEWORK_6_0",
+        "horde/translation": "dev-FRAMEWORK_6_0",
+        "horde/url": "dev-FRAMEWORK_6_0",
+        "horde/util": "dev-FRAMEWORK_6_0",
+        "horde/view": "dev-FRAMEWORK_6_0",
+        "horde/xml_element": "dev-FRAMEWORK_6_0",
+        "horde/yaml": "dev-FRAMEWORK_6_0",
+        "horde/components": "dev-FRAMEWORK_6_0",
+        "pear/Archive_Tar": "dev-FRAMEWORK_6_0",
+        "horde/test": "dev-FRAMEWORK_6_0"
     },
     "autoload": {
         "psr-4": {"Horde\\GitTools\\": "lib"}
